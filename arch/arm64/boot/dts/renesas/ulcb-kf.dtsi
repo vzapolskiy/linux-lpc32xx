@@ -64,6 +64,12 @@
 	status = "okay";
 };
 
+&du {
+	pinctrl-0 = <&du_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
 &ehci0 {
 	dr_mode = "otg";
 	status = "okay";
@@ -263,6 +269,11 @@
 		function = "can1";
 	};
 
+	du_pins: du {
+		groups = "du_sync", "du_clk_out_0", "du_disp";
+		function = "du";
+	};
+
 	hscif0_pins: hscif0 {
 		groups = "hscif0_data", "hscif0_ctrl";
 		function = "hscif0";
@@ -379,4 +390,41 @@
 
 &xhci0 {
 	status = "okay";
+};
+
+&lvds0 {
+	status = "okay";
+};
+
+&lvds0_out {
+	remote-endpoint = <&lvds_panel_in>;
+};
+
+/ {
+	panel-lvds {
+		compatible = "panel-lvds";
+
+		width-mm = <210>;
+		height-mm = <158>;
+
+		data-mapping = "jeida-24";
+
+		panel-timing {
+			clock-frequency = <65000000>;
+			hactive = <1280>;
+			vactive = <800>;
+			hsync-len = <40>;
+			hfront-porch = <80>;
+			hback-porch = <40>;
+			vfront-porch = <14>;
+			vback-porch = <14>;
+			vsync-len = <4>;
+		};
+
+		port {
+			lvds_panel_in: endpoint {
+				remote-endpoint = <&lvds0_out>;
+			};
+		};
+	};
 };
