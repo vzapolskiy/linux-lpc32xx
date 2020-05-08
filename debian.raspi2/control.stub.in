@@ -4,9 +4,11 @@ Priority: optional
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Standards-Version: 3.9.4.0
 Build-Depends:
+ curl <!stage1>,
  debhelper (>= 9),
  dh-systemd,
  cpio,
+ dkms <!stage1>,
  kernel-wedge,
  kmod <!stage1>,
  makedumpfile [amd64] <!stage1>,
