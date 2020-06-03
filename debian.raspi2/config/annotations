@@ -8353,7 +8353,7 @@ CONFIG_NLS_CODEPAGE_874                         policy<{'amd64': 'm', 'arm64': '
 CONFIG_NLS_ISO8859_8                            policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_NLS_CODEPAGE_1250                        policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_NLS_CODEPAGE_1251                        policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
-CONFIG_NLS_ASCII                                policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
+CONFIG_NLS_ASCII                                policy<{'amd64': 'm', 'arm64': 'y', 'armhf': 'y', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_NLS_ISO8859_1                            policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_NLS_ISO8859_2                            policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_NLS_ISO8859_3                            policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
@@ -8381,6 +8381,7 @@ CONFIG_NLS_MAC_TURKISH                          policy<{'amd64': 'm', 'arm64': '
 CONFIG_NLS_UTF8                                 policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 #
 CONFIG_NLS                                      note<dependancy of boot essential>
+CONFIG_NLS_ASCII                                note<LP:1881631>
 
 # Menu: File systems >> Network File Systems
 CONFIG_NETWORK_FILESYSTEMS                      policy<{'amd64': 'y', 'arm64': 'y', 'armhf': 'y', 'i386': 'y', 'ppc64el': 'y', 's390x': 'y'}>
