@@ -963,6 +963,7 @@ CONFIG_COMMON_CLK_SAMSUNG                       policy<{'armhf': 'y'}>
 CONFIG_EXYNOS_AUDSS_CLK_CON                     policy<{'armhf': 'm'}>
 CONFIG_COMMON_CLK_TI_ADPLL                      policy<{'armhf': 'y'}>
 CONFIG_CLK_UNIPHIER                             policy<{'armhf': 'y'}>
+CONFIG_CLK_RASPBERRYPI                          policy<{'arm64': 'y', 'armhf': 'y'}>note<LP:1850876>
 
 # Menu: Device Drivers >> Common Clock Framework >> Clock driver for Mediatek MT2701
 CONFIG_COMMON_CLK_MT2701                        policy<{'armhf': 'n'}>
