@@ -3914,6 +3914,7 @@ CONFIG_VIDEO_XILINX_TPG                         policy<{'arm64': 'm', 'armhf': '
 CONFIG_VIDEO_XILINX_VTC                         policy<{'arm64': 'm', 'armhf': 'm', 'ppc64el': 'm'}>
 CONFIG_VIDEO_RCAR_VIN                           policy<{'arm64': 'm', 'armhf': 'm'}>
 CONFIG_VIDEO_TI_CAL                             policy<{'armhf': 'm'}>
+CONFIG_VIDEO_IRS1125                            policy<{'arm64': 'n', 'armhf': 'n'}>note<LP:1850876>
 
 # Menu: Device Drivers >> Multimedia support >> Cameras/video grabbers support >> V4L platform devices >> Samsung S5P/EXYNOS4 SoC series Camera Subsystem driver
 CONFIG_VIDEO_SAMSUNG_EXYNOS4_IS                 policy<{'armhf': 'n'}>
