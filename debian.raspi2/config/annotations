@@ -10269,6 +10269,8 @@ CONFIG_ARM_TI_CPUFREQ                           policy<{'armhf': 'y'}>
 CONFIG_ACPI_CPPC_CPUFREQ                        policy<{'arm64': 'm'}>
 CONFIG_POWERNV_CPUFREQ                          policy<{'ppc64el': 'y'}>
 CONFIG_QORIQ_CPUFREQ                            policy<{'arm64': 'm', 'armhf': 'm'}>
+CONFIG_ARM_RASPBERRYPI_CPUFREQ                  policy<{'arm64': 'm', 'armhf': 'm'}>note<LP:1850876>
+
 #
 CONFIG_CPU_FREQ_STAT                            note<dependancy of boot essential>
 CONFIG_CPU_FREQ_GOV_PERFORMANCE                 note<not autoloadable>
