@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	1ab838e03cc5 'arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Add the emergency node in thermal-zones': Was in bsp-51x-non-target.yaml without reason.
 	e10bdcf232ff 'arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency settings support':  (Proposing 'N'  Should use "assigned-clocks" and "assigned-clock-rates" in board DTS file that actually uses MSIOF)
 	667534413db9 'arm64: dts: renesas: r8a779a0-falcon: Add missing Ethernet-AVB in Falcon board':  (Proposing 'N': we never got them to work, not even with the BSP. We have never got confirmation they work on the HW)
 	ccb1316bf6d0 'arm64: dts: renesas: r8a779a0-falcon: Enable TMU':  (Proposing 'N': there were issues enabling multiple timers in board files by default)
