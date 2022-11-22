@@ -59,6 +59,7 @@ ARM/SoC/DT
 	- explanation for others
 
 Clock
+	65b50fc476f6 'clk: renesas: r8a779a0: Support missing module clocks for R8A779A0':  (Proposing 'N': we only upport clocks of devices used and tested)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 
