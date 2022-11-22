@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	333acb9e9209 'arm64: dts: renesas: r8a779m1: Remove hdmi0 setting for H3e':  (upstream never had the duplicates)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 
