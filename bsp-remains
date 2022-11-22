@@ -298,7 +298,6 @@ b4427db080d7 drm: bridge: simple-bridge: Add dot clock valid check
 e42ca15fced1 drm: bridge: simple-bridge: Add preferred resolution option
 ff86df8f2aa2 drm: rcar-du: Add support for colorkey alpha blending
 dffa26bbdf08 v4l: vsp1: Add support for colorkey alpha blending
-84efcbedf26a Revert "drm/rcar-du: Convert to the new generic alpha property"
 217af79ae9a9 drm: rcar-du: Fix DPLL clock divider judgement
 56b96a3db3e8 v4l: vsp1: Add Vmute function support
 3860e36d582d v4l: vsp1: Add underrun debug messege option
@@ -950,3 +949,4 @@ c63b0054608b drm: rcar-du: Add dev_type for dw-hdmi driver
 f33dbb8090bd drm: rcar-du: Add HDMI control clock when S2RAM
 3e69390afef7 drm: rcar-du: Fix possible crtcs for plane when using VSPDL
 2f9195e22ba2 drm: rcar-du: Skip EPROBE_DEFER in case of disabling LVDS and HDMI
+84efcbedf26a Revert "drm/rcar-du: Convert to the new generic alpha property"
