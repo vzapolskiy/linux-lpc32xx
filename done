@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	df1b70b902a1 'Revert "arm64: dts: renesas: salvator-common: Add RPC HyperFlash device node"': Was in bsp-51x-non-target.yaml without reason.
 	ec887e9beca3 'Revert "arm64: dts: renesas: ulcb: Add RPC HyperFlash device node"': Was in bsp-51x-non-target.yaml without reason.
 	e4b92ad17739 'Revert "arm64: dts: renesas: r8a77965: Add RPC device node"': Was in bsp-51x-non-target.yaml without reason.
 	0e2eec819cc1 'Revert "arm64: dts: renesas: r8a7796{0,1}: Add RPC device node"': Was in bsp-51x-non-target.yaml without reason.
