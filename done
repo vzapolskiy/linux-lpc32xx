@@ -71,6 +71,7 @@ Sound
 		  because upstream team don't have these.
 
 Not for upporting
+	32cdac51bf55 'Revert "cpufreq: Remove CPUFREQ_ADJUST and CPUFREQ_NOTIFY policy notifier events"': Was in bsp-41x-non-target.yaml without reason.
 	UIO: UIO and OSAL are not intended for upstream.
 	OSAL: UIO and OSAL are not intended for upstream.
 	MMNGR: This is a local patch file for MMP. So we don't need to upport.
