@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	e6ef0f7489da 'arm64: dts: renesas: r8a77951: Add spi aliases':  (Proposing 'N': SPI aliases are deprecated, and there are no spidev nodes in upstream (and there shouldn't be))
 	7269d13f8f2c 'arm64: dts: renesas: salvator-common: Add no use ddc option for VGA connector': Marked as 'Abandoned' in mm/done/bsp41x_rcar-du-Force-VGA-connector-status.yaml.
 	71c7a4be6298 'arm64: dts: renesas: salvator-common: Add lvds driver relation node': Marked as 'Abandoned' in mm/done/bsp41x_r8a779xx-Add-display-panel-to-DT.yaml.
 	eff7c317af2e 'arm64: dts: renesas: Add optee node for Gen3 devices':  (Proposing 'N': optee nodes should be added by firmware)
