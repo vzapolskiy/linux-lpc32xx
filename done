@@ -95,6 +95,7 @@ I2C
 SPI
 
 PWM
+	4d55226a52d6 'pwm: tpu: Add a compatible string for r8a779a0':  (not needed. We have the generic fallback)
 
 Serial
 	- explanation
