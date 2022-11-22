@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	00b81e15e5f7 'media: rcar-vin: Add memory type of VB_USERPTR support': Marked as 'Abandoned' in mm/done/bsp51x_vin_support_userptr.yaml.
 	9a473723caaf 'rcar-vin: rcar-csi2: Don't bail out from probe on no ep':  (Probing of half the CSI-2 bus makes no sens)
 	cccf6860b944 'media: i2c: adv748x: Fix get_format function':  (Proposing 'N'  Userspace is responsible for setting the correct format based on VIDIOC_QUERYSTD or VIDIOC_QUERY_DV_TIMINGS)
 	ac793f9c1bfa 'media: i2c: adv748x: Set default EDID value':  (Proposing 'N'  Upstream doesn't accept default EDID in drivers)
