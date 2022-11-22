@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	fae4aeaf8b56 'arm64: dts: r8a779a0-falcon: Enable fakra connector':  (We don't have a camera board, so we cannot test)
 	720d92e1190b 'arm64: dts: renesas: falcon: Enable CMT':  (there were issues enabling multiple timers in board files by default)
 	e4dbb4e98674 'arm64: dts: renesas: r8a779a0: Separate memory and control regs of IMP SPM devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	25665edddaa5 'arm64: dts: renesas: Add resets property to IMP devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
