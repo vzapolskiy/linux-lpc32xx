@@ -95,6 +95,7 @@ I2C
 SPI
 
 PWM
+	1c8667f8d275 'dt-bindings: pwm: Add R-Car V3U device tree bindings': Marked as 'Abandoned' in io/done/V3U-enable_PWM.yaml.
 	4896707193fc 'pwm: rcar: Add a judgment of the period out of range': Marked as 'Abandoned' in io/done/V3U-enable_PWM.yaml.
 	4d55226a52d6 'pwm: tpu: Add a compatible string for r8a779a0':  (not needed. We have the generic fallback)
 
