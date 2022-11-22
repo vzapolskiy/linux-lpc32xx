@@ -19,6 +19,7 @@ IOMMU
 	- explanation for others
 
 SD/MMC
+	e6e4182857b4 'mmc: renesas_sdhi: Add PIO mode support':  (really needed? looks like a working around DMA problems of very early Gen3)
 	2ec314c9451c 'mmc: renesas_sdhi: fix selection of manual correction':  (Why exactly can't we use the version register?)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others

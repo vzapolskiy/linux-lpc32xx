@@ -18,7 +18,6 @@ bc75d8c5907a mmc: core: Issue power off notification in mmc_remove()
 f04e295cd388 mmc: renesas_sdhi: reset calibration register
 755f55eac38a mmc: renesas_sdhi: Add internal DMA transfer end
 ce747db93e14 mmc: tmio: Add internal DMA transfer end
-e6e4182857b4 mmc: renesas_sdhi: Add PIO mode support
 32cdac51bf55 Revert "cpufreq: Remove CPUFREQ_ADJUST and CPUFREQ_NOTIFY policy notifier events"
 57ccb1c20a4a soc: renesas: rcar-sysc: Add CR7 domain for r8a77980 in quirks_match
 6c2fe82cca83 soc: renesas: rcar-sysc: Support to handle PDMODE for R-Car V3H ES2.x
@@ -950,3 +949,4 @@ c9776655c1ea arm64: defconfig: Enable loadable EMS/IPA module.
 713a071a3248 arm64: defconfig: Enable EMS/IPA support
 78a2fa569e6c dt-bindings: thermal: Add yaml bindings for EMS in thermal zones
 2ec314c9451c mmc: renesas_sdhi: fix selection of manual correction
+e6e4182857b4 mmc: renesas_sdhi: Add PIO mode support
