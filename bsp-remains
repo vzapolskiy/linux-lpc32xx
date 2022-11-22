@@ -277,7 +277,6 @@ b3f9840865d8 media: vsp1: Add VSP device for Gen4
 7b6b37a751b1 drm: rcar-du: Add setting to PnALPHAR register on Gen3
 580a8138882b drm: rcar-du: lvds: Seperate the disable process of LVDS
 11a5640d342c drm: rcar-du: Add check for member of rstate in rcar_du_crtc_state structure
-fe0832b798a5 drm: adv7511: Enable HPD interrupts to support hotplug
 4d326eb16e9b drm: rcar-du: Change supporting format of DU in R8A779A0
 4409f463dc6c drm: rcar-du: Add setting for PnMR for R8A779A0
 59c814ff03fc drm: rcar-du: Add new pixel formats support for R8A779A0
@@ -950,3 +949,4 @@ e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency se
 92cd6c6087f9 arm64: dts: renesas: r8a77990-ebisu: Enable simultaneous output of VGA and HDMI
 70a541215a75 arm64: dts: renesas: r8a77990-ebisu: Add LVDS panel nodes
 3be1a176425a drm/bridge: adv7511: Add frequency and vrefresh limitation option
+fe0832b798a5 drm: adv7511: Enable HPD interrupts to support hotplug
