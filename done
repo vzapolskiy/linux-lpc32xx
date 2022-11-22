@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	7269d13f8f2c 'arm64: dts: renesas: salvator-common: Add no use ddc option for VGA connector': Marked as 'Abandoned' in mm/done/bsp41x_rcar-du-Force-VGA-connector-status.yaml.
 	71c7a4be6298 'arm64: dts: renesas: salvator-common: Add lvds driver relation node': Marked as 'Abandoned' in mm/done/bsp41x_r8a779xx-Add-display-panel-to-DT.yaml.
 	eff7c317af2e 'arm64: dts: renesas: Add optee node for Gen3 devices':  (Proposing 'N': optee nodes should be added by firmware)
 	9948cf8925ee 'arm64: dts: renesas: r8a77950-ulcb: Disable HS400 of SDHI2':  (Proposing 'N': HS400 already disabled in driver because of H3 ES1.*)
