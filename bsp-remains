@@ -381,7 +381,6 @@ d7c67c1567d0 dt-bindings: gpio: rcar: Document r8a779f0 support
 db0c38eeebe9 dt-bindings: serial: sh-sci: Document r8a779f0 bindings
 42e7333e6f58 dt-bindings: serial: sh-sci: Document r8a779g0 bindings
 f8a597ec6b6c sched/core: Add EXPORT_SYMBOL_GPL to sched_setaffinity
-dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
 4ad9b3444ded serial: sh-sci: Use pm_runtime_get/put when suspend
 06c478c650ae dt-bindings: PCI: rcar: Add yaml bindings for PCI on R-Car S4
 57ecd61e47c1 dt-bindings: PCI: rcar: Add yaml bindings for PCI Endpoint and R-Car V4H
@@ -950,3 +949,4 @@ f60132c67c6e soc: renesas: Identify R-Car M3-W ES1.2
 4b6f17f1dd49 thermal: rcar_gen3_thermal: PIO-INT can be selected for each TSC separately
 210d647a385f thermal: rcar_gen3_thermal: Enable selection between polling/interrupt mode
 ccc3f240c183 gpio: gpio-rcar: Add compatible string for r8a77961
+dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
