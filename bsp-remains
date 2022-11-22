@@ -331,7 +331,6 @@ d615491f9e09 media: rcar-vin: Fix the cropping function
 c58d45a70ae9 media: i2c: adv7604: Enable decoder control register
 03e94938a142 media: rcar-vin: Add callback function for cropcap
 0af0553ccce3 media: rcar-vin: Add INF bit check for R-Car Gen3
-2561701185a7 media: rcar-vin: do not allow changing scaling and composing while streaming
 df288c1c00fe rcar-vin: add support for UDS (Up Down Scaler)
 2058a7e8eddc media: rcar-vin: Add overflow debug message option
 c5a2d5fe615e media: i2c: adv748x: Fix video standard selection register setting
@@ -950,3 +949,4 @@ dde33d1d22bd media: i2c: adv7180: Add std update when getting format
 9dd88d126877 media: i2c: adv7604: Add suspend and resume support
 a30ce8ca61d4 media: i2c: adv7604: Fix set_fmt function
 da5448ccfeac media: i2c: adv7604: Add default EDID information
+2561701185a7 media: rcar-vin: do not allow changing scaling and composing while streaming
