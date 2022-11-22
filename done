@@ -29,6 +29,14 @@ PCI
 CAN
 	- explanation
 
+Ethernet
+
+I2C
+
+SPI
+
+PWM
+
 Serial
 	- explanation
 
