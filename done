@@ -82,6 +82,7 @@ SD/MMC
 	- explanation for others
 
 PCI
+	331fb5074e3b 'PCI: rcar: Add a compatible string for r8a77961':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 	10038ddd935a 'PCI: pcie-rcar: Add bus notifier so we can limit the dma':  range (Workaround in driver rejected upstream. Needs to be fixed in core code. Big task!)
 	a119b30ee6f6 'PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver':  (PCIe currently considered broken)
 	1195a49b6ca3 'dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U': Marked as 'Abandoned' in io/done/V3U-enable_PCI.yaml.
