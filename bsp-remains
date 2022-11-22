@@ -392,7 +392,6 @@ a16e01aa6cc9 misc: pci_endpoint_test: Add Device ID for R-Car S4 PCIe controller
 c5189c803d5b pci: dwc: pcie-renesas-ep: Support PCIe endpoint for R-Car V4H
 f0ac8f59aecd pci: dwc: renesas: Add R-Car V4H PCIe support
 de5c42ac25fe pci: renesas: Add Renesas R-Car PCIev4 endpoint controller driver
-a119b30ee6f6 PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver
 10038ddd935a PCI: pcie-rcar: Add bus notifier so we can limit the dma
 331fb5074e3b PCI: rcar: Add a compatible string for r8a77961
 56f944e99309 PCI: rcar: Add regulators support
@@ -950,3 +949,4 @@ ccc3f240c183 gpio: gpio-rcar: Add compatible string for r8a77961
 dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
 4ad9b3444ded serial: sh-sci: Use pm_runtime_get/put when suspend
 1195a49b6ca3 dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U
+a119b30ee6f6 PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver

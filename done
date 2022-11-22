@@ -82,6 +82,7 @@ SD/MMC
 	- explanation for others
 
 PCI
+	a119b30ee6f6 'PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver':  (PCIe currently considered broken)
 	1195a49b6ca3 'dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U': Marked as 'Abandoned' in io/done/V3U-enable_PCI.yaml.
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
