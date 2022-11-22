@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	eff7c317af2e 'arm64: dts: renesas: Add optee node for Gen3 devices':  (Proposing 'N': optee nodes should be added by firmware)
 	9948cf8925ee 'arm64: dts: renesas: r8a77950-ulcb: Disable HS400 of SDHI2':  (Proposing 'N': HS400 already disabled in driver because of H3 ES1.*)
 	5024c4ce1d24 'arm64: dts: renesas: r8a7796{0,1}: Disable IPMMU devices':  (used only for BSP backward compatibility)
 	8accde359759 'arm64: dts: renesas: r8a779{50, 51}: Disable IPMMU devices':  (used only for BSP backward compatibility)

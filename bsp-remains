@@ -490,7 +490,6 @@ f75384dbb2de clk: renesas: r8a77990: Add FDP1 clock
 eebb64a81da5 arm64: dts: renesas: r8a77965: Change default of all IPMMU devices to disable
 cf44aee9dfea arm64: dts: renesas: r8a779{51, 60, 61}-ulcb: Fix souce clock for DU
 a7afdde5f202 arm64: dts: renesas: r8a77960-ulcb: Disable CPUIdle support for CA53
-eff7c317af2e arm64: dts: renesas: Add optee node for Gen3 devices
 c4ce249bb021 arm64: dts: renesas: Add MFIS Lock and MFIS devices node for gen3 devices
 76cab2933b26 arm64: dts: renesas: r8a77990-ebisu{,-4D}: Add support for R-Car E3 ES1.0
 4dbb8c2e65e6 arm64: dts: renesas: r8a77990: Fixup power-domains of 3DGE for R-Car E3 ES1.0
@@ -950,3 +949,4 @@ a5758a3a06cd arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller dr
 8accde359759 arm64: dts: renesas: r8a779{50, 51}: Disable IPMMU devices
 5024c4ce1d24 arm64: dts: renesas: r8a7796{0,1}: Disable IPMMU devices
 9948cf8925ee arm64: dts: renesas: r8a77950-ulcb: Disable HS400 of SDHI2
+eff7c317af2e arm64: dts: renesas: Add optee node for Gen3 devices
