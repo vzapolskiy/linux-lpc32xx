@@ -308,7 +308,6 @@ ae6af8c6bfff drm: rcar-du: Add CPG reset and release
 c541b27e85d7 media: ov5647: Fix return codes from ov5647_write/ov5647_read functions.
 1e15a520d473 media: i2c: add camera lvds support
 5213db1803d3 media: i2c: add ov5642 sensor driver
-53d4b314148b media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup
 cad649943834 media: rcar-vin: Auto select RESET_CONTROLLER
 b73a682b50b9 drm: rcar-du: lvds: Auto select RESET_CONTROLLER
 5232944262ff media: rcar-vin: Add interrupt for V4L2_FIELD_ALTERNATE format
@@ -950,3 +949,4 @@ f33dbb8090bd drm: rcar-du: Add HDMI control clock when S2RAM
 b05fb3de9b65 drm/bridge: adv7511: Add function of suspend and resume
 cd96a090fa07 drm: rcar-du: Add overlay layer size check
 75008adaa5f2 drm: rcar-du: Fix PHY configure registers
+53d4b314148b media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup

@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	53d4b314148b 'media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup': Marked as 'Abandoned' in mm/done/bsp41x_csi2_fix_r8a77980_vcdt.yaml.
 	75008adaa5f2 'drm: rcar-du: Fix PHY configure registers':  (Proposing 'N'  We are not allowed to upstream dw-hdmi code)
 	cd96a090fa07 'drm: rcar-du: Add overlay layer size check':  (Proposing 'N'  No needed since 401712e035c699d569dbd37024f4b21dc76cc870)
 	b05fb3de9b65 'drm/bridge: adv7511: Add function of suspend and resume': Marked as 'Abandoned' in mm/done/bsp41x_drm-bridge-adv7511-Add-suspend-resume-support.yaml.
