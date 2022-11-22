@@ -334,7 +334,6 @@ c58d45a70ae9 media: i2c: adv7604: Enable decoder control register
 df288c1c00fe rcar-vin: add support for UDS (Up Down Scaler)
 2058a7e8eddc media: rcar-vin: Add overflow debug message option
 9bbdcef12e3f media: i2c: adv748x: Add virtual channel option
-9a473723caaf rcar-vin: rcar-csi2: Don't bail out from probe on no ep
 00b81e15e5f7 media: rcar-vin: Add memory type of VB_USERPTR support
 4063c23427e6 dt-bindings: i2c: rcar: Document r8a779f0 support
 df55f34d3f0c dt-bindings: i2c: rcar: Document r8a779g0 support
@@ -950,3 +949,4 @@ da5448ccfeac media: i2c: adv7604: Add default EDID information
 c5a2d5fe615e media: i2c: adv748x: Fix video standard selection register setting
 ac793f9c1bfa media: i2c: adv748x: Set default EDID value
 cccf6860b944 media: i2c: adv748x: Fix get_format function
+9a473723caaf rcar-vin: rcar-csi2: Don't bail out from probe on no ep
