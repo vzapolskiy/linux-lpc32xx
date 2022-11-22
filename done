@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	cccf6860b944 'media: i2c: adv748x: Fix get_format function':  (Proposing 'N'  Userspace is responsible for setting the correct format based on VIDIOC_QUERYSTD or VIDIOC_QUERY_DV_TIMINGS)
 	ac793f9c1bfa 'media: i2c: adv748x: Set default EDID value':  (Proposing 'N'  Upstream doesn't accept default EDID in drivers)
 	c5a2d5fe615e 'media: i2c: adv748x: Fix video standard selection register setting':  (Proposing 'N'  Patch is a no-op. The bit is not changed due to use of clrset)
 	2561701185a7 'media: rcar-vin: do not allow changing scaling and composing while streaming': Was in bsp-41x-non-target.yaml without reason.
