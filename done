@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	0e2eec819cc1 'Revert "arm64: dts: renesas: r8a7796{0,1}: Add RPC device node"': Was in bsp-51x-non-target.yaml without reason.
 	16fd272df215 'Revert "arm64: dts: renesas: r8a77951: Add RPC device node"': Was in bsp-51x-non-target.yaml without reason.
 	5a9cc958e435 'arm64: dts: renesas: Configure the MSIOF parent clock for R-Car Gen3':  (Proposing 'N'  Should use "assigned-clocks" and "assigned-clock-rates" in board DTS file that actually uses MSIOF)
 	37f639d10d8f 'arm64: dts: r8a77995: Add optee node':  (Proposing 'N': optee nodes should be added by firmware)
