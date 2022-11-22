@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	f33dbb8090bd 'drm: rcar-du: Add HDMI control clock when S2RAM':  (Proposing 'N'  While PM support is needed in dw-hdmi, it should be implemented in a standard way)
 	75773178778c 'drm: bridge/dw-hdmi: Fix reserved bits and unused registers for R-Car':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	0753f4c486a7 'drm: bridge/dw-hdmi: Add re-write of vsync pulse width':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	2ab3707b5051 'drm: bridge/dw-hdmi: Fix offset address of register for R-Car':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
