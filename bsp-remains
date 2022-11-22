@@ -216,7 +216,6 @@ b140daa43785 arm64: dts: renesas: r8a779g0: whitehawk-cpu: Use HSCIF0 for the de
 ea05ba1a2c0d arm64: dts: renesas: Add Renesas WhiteHawk boards support
 446a8869c567 arm64: dts: renesas: Add Renesas R8A779G0 SoC support
 b00576ea6bf3 arm64: dts: renesas: r8a779m{1, 3, 5}: Do not support boost mode for R8A779M{1, 3, 5}
-ec887e9beca3 Revert "arm64: dts: renesas: ulcb: Add RPC HyperFlash device node"
 df1b70b902a1 Revert "arm64: dts: renesas: salvator-common: Add RPC HyperFlash device node"
 2b6d44cc2ba6 arm64: dts: renesas: ulcb: Enable IPMMU of SDHI2
 7c17cf98a2b7 arm64: dts: renesas: r8a77995-draak: Enable IPMMU of SDHI2
@@ -950,3 +949,4 @@ e6e4182857b4 mmc: renesas_sdhi: Add PIO mode support
 16fd272df215 Revert "arm64: dts: renesas: r8a77951: Add RPC device node"
 0e2eec819cc1 Revert "arm64: dts: renesas: r8a7796{0,1}: Add RPC device node"
 e4b92ad17739 Revert "arm64: dts: renesas: r8a77965: Add RPC device node"
+ec887e9beca3 Revert "arm64: dts: renesas: ulcb: Add RPC HyperFlash device node"
