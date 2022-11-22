@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	36bed5ebf563 'arm64: dts: renesas: r8a779{50,51,60,65,m1}: Move nodes of du and lvds':  (not applicable)
 	0ed94ce71f04 'arm64: dts: renesas: r8a77995: Change default of all IPMMU devices to disable':  (used only for BSP backward compatibility)
 	d0389b66d30a 'arm64: dts: renesas: r8a77995: Enable IPMMU-DS1 and IPMMU-MM':  (should be enabled in board files)
 	7c17cf98a2b7 'arm64: dts: renesas: r8a77995-draak: Enable IPMMU of SDHI2':  (used only for BSP backward compatibility)

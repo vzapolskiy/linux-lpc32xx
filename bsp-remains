@@ -217,7 +217,6 @@ ea05ba1a2c0d arm64: dts: renesas: Add Renesas WhiteHawk boards support
 446a8869c567 arm64: dts: renesas: Add Renesas R8A779G0 SoC support
 b00576ea6bf3 arm64: dts: renesas: r8a779m{1, 3, 5}: Do not support boost mode for R8A779M{1, 3, 5}
 70db35c3bbf4 arm64: dts: renesas: r8a77995: Change IPMMU-MM and IPMMU-caches order in DT for R-Car D3
-36bed5ebf563 arm64: dts: renesas: r8a779{50,51,60,65,m1}: Move nodes of du and lvds
 e047235afc80 arm64: dts: r8a77995-draak: Move option definition of vin node
 7e2ffb68ad2f arm64: dts: renesas: r8a77995-draak: Set HDMI mode as defaul mode for VIN driver
 b0aa94d65efb arm64: dts: renesas: Fix compatible name for MFIS node
@@ -950,3 +949,4 @@ df1b70b902a1 Revert "arm64: dts: renesas: salvator-common: Add RPC HyperFlash de
 7c17cf98a2b7 arm64: dts: renesas: r8a77995-draak: Enable IPMMU of SDHI2
 d0389b66d30a arm64: dts: renesas: r8a77995: Enable IPMMU-DS1 and IPMMU-MM
 0ed94ce71f04 arm64: dts: renesas: r8a77995: Change default of all IPMMU devices to disable
+36bed5ebf563 arm64: dts: renesas: r8a779{50,51,60,65,m1}: Move nodes of du and lvds
