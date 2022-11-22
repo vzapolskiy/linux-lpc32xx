@@ -301,7 +301,6 @@ dffa26bbdf08 v4l: vsp1: Add support for colorkey alpha blending
 3860e36d582d v4l: vsp1: Add underrun debug messege option
 c3c1e53601fc drm: rcar-du: Fix LVDS stop sequence
 ae6af8c6bfff drm: rcar-du: Add CPG reset and release
-75008adaa5f2 drm: rcar-du: Fix PHY configure registers
 8605b0f29f33 drm: bridge: simple-bridge: Add connector status setting option
 0a1de0131e5c media: i2c: max9286: Delay initialize timing in launching driver
 17da051cfc67 media: i2c: ov5647: Add test pattern control
@@ -950,3 +949,4 @@ f33dbb8090bd drm: rcar-du: Add HDMI control clock when S2RAM
 39719be28af2 v4l: vsp1: Add pixel alpha blending supoprt
 b05fb3de9b65 drm/bridge: adv7511: Add function of suspend and resume
 cd96a090fa07 drm: rcar-du: Add overlay layer size check
+75008adaa5f2 drm: rcar-du: Fix PHY configure registers
