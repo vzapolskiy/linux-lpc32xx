@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	e257b37728a2 'arm64: dts: renesas: r8a779a0: Add FBA devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	2be47417cee9 'arm64: dts: renesas: r8a77990-es10-ebisu: add full-pwr-cycle-in-suspend into eMMC nodes': Was in bsp-51x-non-target.yaml without reason.
 	ecf7e4693ae4 'arm64: dts: r8a779a0-falcon: Add TPU support':  (won't be upported because there are no users on the boards)
 	854069bcb2eb 'arm64: dts: renesas: r8a779a0: Add MFIS devices': Was in bsp-41x-non-target.yaml without reason.
