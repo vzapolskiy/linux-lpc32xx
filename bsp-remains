@@ -232,7 +232,6 @@ e5e89c4837f7 arm64: dts: renesas: v3x: update videoboxes for Yocto4.1.0
 5beefb300ae6 arm64: dts: renesas: r8a779x: add IMP nodes
 61bb4e544211 arm64: dts: renesas: r8a77950-ulcb: disable eMMC
 931e8525ade1 arm64: dts: r8a77980-v3hsk: Enable onboard eMMC
-99247afdb8a6 arm64: dts: renesas: v3x: Set thc63lvd1024 dual link mode
 81a0161ddc6a arm64: dts: renesas: r8a77970 and r8a77980: Add CPU operation points
 51126e27d005 arm64: dts: renesas: ulcb-kf: deselect GP5_9 interrupt
 d80707e0e447 arm64: dts: renesas: ulcb-kf: update for kernel v5.10
@@ -950,3 +949,4 @@ ceaebe58dff5 arm64: dts: r8a77980: Update name and reg size of IMP nodes
 6ddabb5d936d arm64: dts: renesas: extend 'ipmmu-id' with micro-TLB index
 a432a1010378 arm64: dts: r8a77970, r8a77980: Enable TMU and CMT
 54eaa9cd5aae arm64: boot: dts: rcar-gen3: Fix MLP IRQ order
+99247afdb8a6 arm64: dts: renesas: v3x: Set thc63lvd1024 dual link mode
