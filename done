@@ -72,6 +72,7 @@ DMA-Engine
 	- explanation
 
 IOMMU
+	8089aa35bf04 'iommu/ipmmu-vmsa: Clean up unncessary micro-TLB invalidation': Marked as 'Abandoned' in core/done/bsp392_iommu_ipmmu-vmsa.yaml.
 	6c286c0f0b71 'iommu/ipmmu-vmsa: Invalidate TLB when IPMMU translation error occurred': Marked as 'Abandoned' in core/done/bsp392_iommu_ipmmu-vmsa.yaml.
 	4ce9d6f94661 'iommu/ipmmu-vmsa: Handle reserved bits correctly': Marked as 'Abandoned' in core/done/bsp392_iommu_ipmmu-vmsa.yaml.
 	- A lot of BSP patches were included in native v6.1
