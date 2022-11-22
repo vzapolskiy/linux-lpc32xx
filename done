@@ -104,6 +104,7 @@ I2C
 	85d885d970d1 'i2c: rcar: Add support for r8a77961 (R-Car M3-W+)':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
 SPI
+	4d89de9aef8f 'spi: sh-msiof: Add support for r8a7795':  (Proposing 'N'  not needed as the driver matches against "renesas,rcar-gen3-msiof")
 	aa5fd2cbca66 'spi: sh-msiof: Add sleep before master transfer for test':  (Proposing 'N'  local debug code not suitable for upstream)
 	0fa91d04eaa7 'spi: sh-msiof: Add SPI master transmission workaround':  (workaround patch)
 	469c8f7e8387 'spi: sh-msiof: Add MSIOF module clock changing processing for R-Car Gen3':  (Proposing 'N'  Should use "assigned-clocks" and "assigned-clock-rates" in board DTS file that actually uses MSIOF)
