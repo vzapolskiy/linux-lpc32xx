@@ -237,7 +237,6 @@ d80707e0e447 arm64: dts: renesas: ulcb-kf: update for kernel v5.10
 aa2552bb7c2e arm64: dts: renesas: r8a779a0-falcon: Reserve u-boot secure area
 84a6123fe4a3 arm64: dts: renesas: ebisu: Add endpoint for dual-link in Ebisu board
 ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
-720d92e1190b arm64: dts: renesas: falcon: Enable CMT
 932aeb37621c arm64: dts: renesas: r8a779a0: Add IMP nodes
 fae4aeaf8b56 arm64: dts: r8a779a0-falcon: Enable fakra connector
 6118a2612b96 arm64: dts: renesas: r8a779a0: Add IMR nodes
@@ -950,3 +949,4 @@ c2833b47268e arm64: dts: renesas: r8a779a0: Update start address of IMPSPM
 3dad8bc4bc0f arm64: dts: renesas: r8a779a0: Fix clock and software reset of ISP nodes
 25665edddaa5 arm64: dts: renesas: Add resets property to IMP devices
 e4dbb4e98674 arm64: dts: renesas: r8a779a0: Separate memory and control regs of IMP SPM devices
+720d92e1190b arm64: dts: renesas: falcon: Enable CMT
