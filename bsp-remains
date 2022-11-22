@@ -488,7 +488,6 @@ f75384dbb2de clk: renesas: r8a77990: Add FDP1 clock
 857def3629da arm64: dts: renesas: Change IPMMU-MM and IPMMU-caches order in DT
 033e8e11aad6 arm64: dts: renesas: r8a77990: Change default of all IPMMU devices to disable
 eebb64a81da5 arm64: dts: renesas: r8a77965: Change default of all IPMMU devices to disable
-8accde359759 arm64: dts: renesas: r8a779{50, 51}: Disable IPMMU devices
 5024c4ce1d24 arm64: dts: renesas: r8a7796{0,1}: Disable IPMMU devices
 cf44aee9dfea arm64: dts: renesas: r8a779{51, 60, 61}-ulcb: Fix souce clock for DU
 a7afdde5f202 arm64: dts: renesas: r8a77960-ulcb: Disable CPUIdle support for CA53
@@ -950,3 +949,4 @@ a5758a3a06cd arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller dr
 870144dfc576 arm64: dts: renesas: r8a77990-ebisu{,-es10}: Enable IPMMU of SDHI3
 4f96fa23c03c arm64: dts: renesas: r8a7796{0,1}: Enable IPMMU-DS1 and IPMMU-MM
 9e42169db8a0 arm64: dts: renesas: r8a7795{0,1}: Enable IPMMU-DS1 and IPMMU-MM
+8accde359759 arm64: dts: renesas: r8a779{50, 51}: Disable IPMMU devices

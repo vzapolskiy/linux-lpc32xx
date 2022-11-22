@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	8accde359759 'arm64: dts: renesas: r8a779{50, 51}: Disable IPMMU devices':  (used only for BSP backward compatibility)
 	9e42169db8a0 'arm64: dts: renesas: r8a7795{0,1}: Enable IPMMU-DS1 and IPMMU-MM':  (should be enabled in board files)
 	4f96fa23c03c 'arm64: dts: renesas: r8a7796{0,1}: Enable IPMMU-DS1 and IPMMU-MM':  (should be enabled in board files)
 	870144dfc576 'arm64: dts: renesas: r8a77990-ebisu{,-es10}: Enable IPMMU of SDHI3':  (used only for BSP backward compatibility)
