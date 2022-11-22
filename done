@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	39719be28af2 'v4l: vsp1: Add pixel alpha blending supoprt': Marked as 'Abandoned' in mm/done/bsp41x_vsp-Add-alpha-blending-support.yaml.
 	4c4575ecad64 'v4l: vsp1: Add underrun hung-up workaround':  (Proposing 'N': H3 ES1.x only)
 	56b96a3db3e8 'v4l: vsp1: Add Vmute function support': Marked as 'Abandoned' in mm/done/bsp41x_vsp-Add-vmute-function.yaml.
 	217af79ae9a9 'drm: rcar-du: Fix DPLL clock divider judgement': Marked as 'Abandoned' in mm/done/bsp41x_rcar-du-Fix-DPLL-clock-divider.yaml.
