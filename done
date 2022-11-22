@@ -89,6 +89,7 @@ CAN
 Ethernet
 
 I2C
+	c9a37c38aa90 'i2c: rcar: Tidy up the register order for hardware specification ver1.00.': Marked as 'Done' in io/done/BSP41-upport-unsorted-patches.yaml.
 	85d885d970d1 'i2c: rcar: Add support for r8a77961 (R-Car M3-W+)':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
 SPI
