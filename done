@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	dd621acea624 'arm64: dts: renesas: falcon: Enable PCIe': Marked as 'Abandoned' in io/done/V3U-enable_PCI.yaml.
 	5d4c3888e0d3 'arm64: dts: renesas: r8a779a0: Add PWM nodes': Marked as 'Abandoned' in io/done/V3U-enable_PWM.yaml.
 	fae4aeaf8b56 'arm64: dts: r8a779a0-falcon: Enable fakra connector':  (We don't have a camera board, so we cannot test)
 	720d92e1190b 'arm64: dts: renesas: falcon: Enable CMT':  (there were issues enabling multiple timers in board files by default)
