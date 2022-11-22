@@ -482,7 +482,6 @@ c0ba44fdd4d9 clk: renesas: r8a7795: Add ADG clock
 f75384dbb2de clk: renesas: r8a77990: Add FDP1 clock
 128981aa3601 clk: renesas: rcar-gen3: Add support ZG clock divider for R8A77990
 35eb4ba8bd88 clk: renesas: r8a77{95, 96, 965, 990}: Add ZG clock
-fbf991b5bd28 clk: renesas: r8a77{95, 96, 965}: Replace PLL3 multiplication setting
 23fcabf79226 clk: renesas: r8a77{95, 96, 965, 990}: Remove INTC-AP and INTC-EX clocks
 7ed8cce11f67 arm64: defconfig: Enable cpufreq configs for rcar
 a5758a3a06cd arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller driver
@@ -950,3 +949,4 @@ c9192124a557 ravb: Add register define for Gen3
 65b50fc476f6 clk: renesas: r8a779a0: Support missing module clocks for R8A779A0
 151f27fccd60 clk: renesas: cpg-mssr: Fix Realtime Module Stop Control Register offsets
 d64955dcde0b clk: renesas: rcar-gen3: Add rounding for Z-clock frequency
+fbf991b5bd28 clk: renesas: r8a77{95, 96, 965}: Replace PLL3 multiplication setting
