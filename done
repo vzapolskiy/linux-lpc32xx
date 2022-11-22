@@ -98,6 +98,7 @@ CAN
 	- explanation
 
 Ethernet
+	286ee3cf3bad 'ravb: Add ravb_multi_interrupt to IRQF_SHARED':  (Proposing 'N'. Not appropriate for upstream.  Required to support Renesas MCH (Media Clock Recovery Handler) driver which is not upstream)
 	d72d7b3f9b4e 'ravb: Fix ravb_ptp_interrupt clear interrupt all status':  (Proposing 'N'. Rejected by upstream, current approach of clearing all bits is regarded as safer)
 	817c301889ac 'ravb: Add a compatible string for r8a77960/r8a77961':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
