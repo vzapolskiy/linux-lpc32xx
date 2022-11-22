@@ -484,7 +484,6 @@ f75384dbb2de clk: renesas: r8a77990: Add FDP1 clock
 35eb4ba8bd88 clk: renesas: r8a77{95, 96, 965, 990}: Add ZG clock
 3df554353f04 arm64: dts: renesas: r8a77965-ulcb: Fix source clock for DU
 98ea5401ab70 arm64: dts: renesas: r8a77951-ulcb: Fix source clock for DU2
-870144dfc576 arm64: dts: renesas: r8a77990-ebisu{,-es10}: Enable IPMMU of SDHI3
 4f96fa23c03c arm64: dts: renesas: r8a7796{0,1}: Enable IPMMU-DS1 and IPMMU-MM
 9e42169db8a0 arm64: dts: renesas: r8a7795{0,1}: Enable IPMMU-DS1 and IPMMU-MM
 6b6933f7f35c arm64: dts: renesas: Support IPMMU(MMU mode) for IPMMU-VP0/1 and IPMMU VC0/1
@@ -950,3 +949,4 @@ fbf991b5bd28 clk: renesas: r8a77{95, 96, 965}: Replace PLL3 multiplication setti
 23fcabf79226 clk: renesas: r8a77{95, 96, 965, 990}: Remove INTC-AP and INTC-EX clocks
 7ed8cce11f67 arm64: defconfig: Enable cpufreq configs for rcar
 a5758a3a06cd arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller driver
+870144dfc576 arm64: dts: renesas: r8a77990-ebisu{,-es10}: Enable IPMMU of SDHI3

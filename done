@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	870144dfc576 'arm64: dts: renesas: r8a77990-ebisu{,-es10}: Enable IPMMU of SDHI3':  (used only for BSP backward compatibility)
 	a5758a3a06cd 'arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller driver':  (PCIe currently considered broken)
 	7ed8cce11f67 'arm64: defconfig: Enable cpufreq configs for rcar':  (Proposing 'N'  Modular as per upstream policy, CONFIG_CPU_FREQ_STAT_DETAILS was removed in v4.11)
 	f60132c67c6e 'soc: renesas: Identify R-Car M3-W ES1.2':  (Proposing 'N'  Complicates revision matching when using soc_device_match())
