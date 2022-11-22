@@ -234,7 +234,6 @@ e5e89c4837f7 arm64: dts: renesas: v3x: update videoboxes for Yocto4.1.0
 931e8525ade1 arm64: dts: r8a77980-v3hsk: Enable onboard eMMC
 51126e27d005 arm64: dts: renesas: ulcb-kf: deselect GP5_9 interrupt
 d80707e0e447 arm64: dts: renesas: ulcb-kf: update for kernel v5.10
-2c0506853cc2 arm64: dts: renesas: r8a779a0: Add remained IMP devices
 512ba8ad3bd5 arm64: dts: renesas: r8a779a0: Add VCPL4 devices
 26c27860764c arm64: dts: renesas: r8a779a0: Add RFSO devices
 aa2552bb7c2e arm64: dts: renesas: r8a779a0-falcon: Reserve u-boot secure area
@@ -950,3 +949,4 @@ ecf7e4693ae4 arm64: dts: r8a779a0-falcon: Add TPU support
 2be47417cee9 arm64: dts: renesas: r8a77990-es10-ebisu: add full-pwr-cycle-in-suspend into eMMC nodes
 e257b37728a2 arm64: dts: renesas: r8a779a0: Add FBA devices
 c5901c556c2d arm64: dts: renesas: r8a779a0: Add FBC devices
+2c0506853cc2 arm64: dts: renesas: r8a779a0: Add remained IMP devices
