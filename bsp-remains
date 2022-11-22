@@ -477,7 +477,6 @@ dc644df9f22b clk: renesas: r8a779{5, 6, 70, 80}: add IMP clock
 43ca51590fa0 clk: renesas: r8a779{70, 80}: Add CPU operation points.
 280b7c5cc56b clk: renesas: rcar-gen3: Fix revision of R8A7796 for applying SD_SKIP_FIRST
 eebc4189c612 clk: renesas: r8a779a0: Extend number of supported module clocks
-151f27fccd60 clk: renesas: cpg-mssr: Fix Realtime Module Stop Control Register offsets
 22fcdce314a2 clk: renesas: r8a77{96, 965, 990}: Add ADG clock
 c0ba44fdd4d9 clk: renesas: r8a7795: Add ADG clock
 f75384dbb2de clk: renesas: r8a77990: Add FDP1 clock
@@ -950,3 +949,4 @@ d72d7b3f9b4e ravb: Fix ravb_ptp_interrupt clear interrupt all status
 c9192124a557 ravb: Add register define for Gen3
 82fbba6554b7 pinctrl: renesas:r8a779{50, 51, 6, 65}: add mlb pinmux
 65b50fc476f6 clk: renesas: r8a779a0: Support missing module clocks for R8A779A0
+151f27fccd60 clk: renesas: cpg-mssr: Fix Realtime Module Stop Control Register offsets
