@@ -59,6 +59,7 @@ ARM/SoC/DT
 	- explanation for others
 
 Clock
+	23fcabf79226 'clk: renesas: r8a77{95, 96, 965, 990}: Remove INTC-AP and INTC-EX clocks':  (Proposing 'N': Removing the INTC-EX module clock breaks old DTB, INTC-AP does exist and must not be disabled)
 	fbf991b5bd28 'clk: renesas: r8a77{95, 96, 965}: Replace PLL3 multiplication setting':  ((Proposing 'N': DDR2400/2800 not documented in Hardware User's Manual))
 	d64955dcde0b 'clk: renesas: rcar-gen3: Add rounding for Z-clock frequency':  (This is a local patch file for developers. So we don't need to upport.)
 	151f27fccd60 'clk: renesas: cpg-mssr: Fix Realtime Module Stop Control Register offsets':  (Proposing 'N': Incorrect definitions are unused, and planned to be removed)
