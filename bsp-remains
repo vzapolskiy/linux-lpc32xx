@@ -289,7 +289,6 @@ de5241d52cc6 drm: rcar-du: Add DIDSRO register setting for V3U
 c7b9de4f7b6a drm: rcar-du: Accessing to reserved registers at V3U is prohibited
 d84aeb65f366 drm: rcar-du: Add DU device information for V3U
 bda8cf6a5bdc v4l: vsp1: Add new registers which are introduced in V3U
-c63b0054608b drm: rcar-du: Add dev_type for dw-hdmi driver
 2ab3707b5051 drm: bridge/dw-hdmi: Fix offset address of register for R-Car
 0753f4c486a7 drm: bridge/dw-hdmi: Add re-write of vsync pulse width
 75773178778c drm: bridge/dw-hdmi: Fix reserved bits and unused registers for R-Car
@@ -950,3 +949,4 @@ e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency se
 fe0832b798a5 drm: adv7511: Enable HPD interrupts to support hotplug
 e7782857c017 drm: rcar-du: Add enable/disable dot clock to DU in R8A779A0
 8e452962e251 drm: rcar-du: Add output checking in encoder for DSI port.
+c63b0054608b drm: rcar-du: Add dev_type for dw-hdmi driver

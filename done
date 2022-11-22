@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	c63b0054608b 'drm: rcar-du: Add dev_type for dw-hdmi driver':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	8e452962e251 'drm: rcar-du: Add output checking in encoder for DSI port.':  (Proposing 'N': The right way to handle this is to disable the DSI encoder in DT)
 	e7782857c017 'drm: rcar-du: Add enable/disable dot clock to DU in R8A779A0':  (Proposing 'N': The DU has no other outputs than DSI, the DSI encoder will thus always turn its clock on when enabled)
 	fe0832b798a5 'drm: adv7511: Enable HPD interrupts to support hotplug': Marked as 'Abandoned' in mm/done/bsp41x_drm-bridge-adv7511-Add-hotplug-support.yaml.
