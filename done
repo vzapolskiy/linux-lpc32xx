@@ -103,6 +103,7 @@ PWM
 	4d55226a52d6 'pwm: tpu: Add a compatible string for r8a779a0':  (not needed. We have the generic fallback)
 
 Serial
+	4ad9b3444ded 'serial: sh-sci: Use pm_runtime_get/put when suspend':  (Proposing 'N'. According to our research tty-core activates clocks. Testcase needed.)
 	dac54422c0d0 'serial: sh-sci: Use pm_runtime_get/put when resume':  (Proposing 'N'. According to our research tty-core activates clocks. Testcase needed.)
 	- explanation
 
