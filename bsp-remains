@@ -240,7 +240,6 @@ ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
 932aeb37621c arm64: dts: renesas: r8a779a0: Add IMP nodes
 6118a2612b96 arm64: dts: renesas: r8a779a0: Add IMR nodes
 419560a14df4 arm64: dts: r8a779a0: Add SYSC PM Domains
-34da8764ad92 arm64: dts: renesas: r8a779a0: Add PCIe device node
 ccb1316bf6d0 arm64: dts: renesas: r8a779a0-falcon: Enable TMU
 667534413db9 arm64: dts: renesas: r8a779a0-falcon: Add missing Ethernet-AVB in Falcon board
 e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency settings support
@@ -950,3 +949,4 @@ e4dbb4e98674 arm64: dts: renesas: r8a779a0: Separate memory and control regs of 
 fae4aeaf8b56 arm64: dts: r8a779a0-falcon: Enable fakra connector
 5d4c3888e0d3 arm64: dts: renesas: r8a779a0: Add PWM nodes
 dd621acea624 arm64: dts: renesas: falcon: Enable PCIe
+34da8764ad92 arm64: dts: renesas: r8a779a0: Add PCIe device node
