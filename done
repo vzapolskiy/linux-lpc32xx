@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	3be1a176425a 'drm/bridge: adv7511: Add frequency and vrefresh limitation option':  (Proposing 'N'  The adv7511 driver isn't where to check board-specific limits. Requesting use case.)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 
