@@ -98,6 +98,7 @@ CAN
 	- explanation
 
 Ethernet
+	d72d7b3f9b4e 'ravb: Fix ravb_ptp_interrupt clear interrupt all status':  (Proposing 'N'. Rejected by upstream, current approach of clearing all bits is regarded as safer)
 	817c301889ac 'ravb: Add a compatible string for r8a77960/r8a77961':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
 I2C
