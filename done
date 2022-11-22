@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	dde33d1d22bd 'media: i2c: adv7180: Add std update when getting format':  (Proposing 'N'  Userspace is responsible for setting the correct format based on VIDIOC_QUERYSTD)
 	9ac2538217cc 'media: rcar-vin: Disable media-ctl on R8A77995':  (All Gen3 platforms shall use MC, even D3 that only has a single port. There is no telling what connected to that port and MC maybe needed.  In a perfect world Gen2 shall move to only use MC.)
 	53d4b314148b 'media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup': Marked as 'Abandoned' in mm/done/bsp41x_csi2_fix_r8a77980_vcdt.yaml.
 	75008adaa5f2 'drm: rcar-du: Fix PHY configure registers':  (Proposing 'N'  We are not allowed to upstream dw-hdmi code)
