@@ -241,7 +241,6 @@ ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
 6118a2612b96 arm64: dts: renesas: r8a779a0: Add IMR nodes
 419560a14df4 arm64: dts: r8a779a0: Add SYSC PM Domains
 2952a9503e49 arm64: dts: renesas: r8a779{51, 60, 61, 65}: Enable interrupt mode for THS by default
-846e5bebe28c arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Use default clock and reset property for secure public core
 0425608ea3b2 arm64: dts: renesas: r8a77995-draak: Enable display driver relation node
 92cd6c6087f9 arm64: dts: renesas: r8a77990-ebisu: Enable simultaneous output of VGA and HDMI
 70a541215a75 arm64: dts: renesas: r8a77990-ebisu: Add LVDS panel nodes
@@ -950,3 +949,4 @@ ccb1316bf6d0 arm64: dts: renesas: r8a779a0-falcon: Enable TMU
 e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency settings support
 1ab838e03cc5 arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Add the emergency node in thermal-zones
 346e96545b78 arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Create thermal zone to support IPA
+846e5bebe28c arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Use default clock and reset property for secure public core
