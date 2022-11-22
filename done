@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	0753f4c486a7 'drm: bridge/dw-hdmi: Add re-write of vsync pulse width':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	2ab3707b5051 'drm: bridge/dw-hdmi: Fix offset address of register for R-Car':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	c63b0054608b 'drm: rcar-du: Add dev_type for dw-hdmi driver':  (Proposing 'N': We are not allowed to work on the dw-hdmi driver)
 	8e452962e251 'drm: rcar-du: Add output checking in encoder for DSI port.':  (Proposing 'N': The right way to handle this is to disable the DSI encoder in DT)
