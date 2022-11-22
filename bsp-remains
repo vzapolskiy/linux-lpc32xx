@@ -405,7 +405,6 @@ eac56fb51d70 iommu/ipmmu-vmsa: Adding DMAC1/2 devices to IPMMU devices allowlist
 967a199ed386 iommu/ipmmu-vmsa: Allow PCI Host controller to be a proxy for all connected PCI devices
 ca161241c4c3 iommu/ipmmu-vmsa: Adding devices allowlist for IPMMU on R-Car Gen3
 4b900652aec4 iommu/ipmmu-vmsa: Adding IPMMU support for R-Car M3 ver-1.x
-469c8f7e8387 spi: sh-msiof: Add MSIOF module clock changing processing for R-Car Gen3
 0fa91d04eaa7 spi: sh-msiof: Add SPI master transmission workaround
 aa5fd2cbca66 spi: sh-msiof: Add sleep before master transfer for test
 4d89de9aef8f spi: sh-msiof: Add support for r8a7795
@@ -950,3 +949,4 @@ e44bdceb4adc iommu/ipmmu-vmsa: Add override support for the actual number of MMU
 eaeb661228d2 spi: sh-msiof: Add MSIOF parent clock
 04be76d59158 spi: sh-msiof: Add support for r8a77961
 4a04f1197c2b spi: sh-msiof: Set 2 clock delay for R-Car H3 Ver.3.0 only
+469c8f7e8387 spi: sh-msiof: Add MSIOF module clock changing processing for R-Car Gen3
