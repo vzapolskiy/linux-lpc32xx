@@ -498,7 +498,6 @@ e0911d520034 arm64: dts: renesas: r8a77990-ebisu-4d: Add lossy descompress area
 3996d42d25db arm64: dts: renesas: r8a7796{0,1}: Add cpu capacity-dmips-mhz
 72addd5bf2ca arm64: dts: renesas: r8a77951: Add cpu capacity-dmips-mhz
 3b8f3cc5f237 arm64: dts: renesas: Add lvds node for du
-71c7a4be6298 arm64: dts: renesas: salvator-common: Add lvds driver relation node
 b4940e51861a arm64: dts: renesas: r8a779{90-ebisu, 95-draak}: Add no use ddc option for VGA connector
 7269d13f8f2c arm64: dts: renesas: salvator-common: Add no use ddc option for VGA connector
 e6ef0f7489da arm64: dts: renesas: r8a77951: Add spi aliases
@@ -950,3 +949,4 @@ a5758a3a06cd arm64: defconfig: Enable Renesas R-Car PCIe v4.0 host controller dr
 5024c4ce1d24 arm64: dts: renesas: r8a7796{0,1}: Disable IPMMU devices
 9948cf8925ee arm64: dts: renesas: r8a77950-ulcb: Disable HS400 of SDHI2
 eff7c317af2e arm64: dts: renesas: Add optee node for Gen3 devices
+71c7a4be6298 arm64: dts: renesas: salvator-common: Add lvds driver relation node
