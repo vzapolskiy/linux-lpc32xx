@@ -72,6 +72,7 @@ DMA-Engine
 	- explanation
 
 IOMMU
+	4ce9d6f94661 'iommu/ipmmu-vmsa: Handle reserved bits correctly': Marked as 'Abandoned' in core/done/bsp392_iommu_ipmmu-vmsa.yaml.
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 

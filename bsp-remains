@@ -401,7 +401,6 @@ eac56fb51d70 iommu/ipmmu-vmsa: Adding DMAC1/2 devices to IPMMU devices allowlist
 81363d213337 iommu/ipmmu-vmsa: Update IMSCTLR register offset address for R-Car Gen4
 4ccc89c603cd iommu/ipmmu-vmsa: Update support status for R-Car Gen4
 20c3cede7fcb iommu/ipmmu-vmsa: Set IPMMU bit IMSCTLR_USE_SECGRP to 0
-4ce9d6f94661 iommu/ipmmu-vmsa: Handle reserved bits correctly
 5b402deae7c6 iommu/ipmmu-vmsa: Set up ipmmu_ops for pci bus
 967a199ed386 iommu/ipmmu-vmsa: Allow PCI Host controller to be a proxy for all connected PCI devices
 ca161241c4c3 iommu/ipmmu-vmsa: Adding devices allowlist for IPMMU on R-Car Gen3
@@ -950,3 +949,4 @@ dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
 a119b30ee6f6 PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver
 10038ddd935a PCI: pcie-rcar: Add bus notifier so we can limit the dma
 331fb5074e3b PCI: rcar: Add a compatible string for r8a77961
+4ce9d6f94661 iommu/ipmmu-vmsa: Handle reserved bits correctly
