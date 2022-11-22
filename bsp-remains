@@ -405,7 +405,6 @@ eac56fb51d70 iommu/ipmmu-vmsa: Adding DMAC1/2 devices to IPMMU devices allowlist
 967a199ed386 iommu/ipmmu-vmsa: Allow PCI Host controller to be a proxy for all connected PCI devices
 ca161241c4c3 iommu/ipmmu-vmsa: Adding devices allowlist for IPMMU on R-Car Gen3
 4b900652aec4 iommu/ipmmu-vmsa: Adding IPMMU support for R-Car M3 ver-1.x
-6c286c0f0b71 iommu/ipmmu-vmsa: Invalidate TLB when IPMMU translation error occurred
 8089aa35bf04 iommu/ipmmu-vmsa: Clean up unncessary micro-TLB invalidation
 e44bdceb4adc iommu/ipmmu-vmsa: Add override support for the actual number of MMU contexts
 eaeb661228d2 spi: sh-msiof: Add MSIOF parent clock
@@ -950,3 +949,4 @@ a119b30ee6f6 PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driv
 10038ddd935a PCI: pcie-rcar: Add bus notifier so we can limit the dma
 331fb5074e3b PCI: rcar: Add a compatible string for r8a77961
 4ce9d6f94661 iommu/ipmmu-vmsa: Handle reserved bits correctly
+6c286c0f0b71 iommu/ipmmu-vmsa: Invalidate TLB when IPMMU translation error occurred
