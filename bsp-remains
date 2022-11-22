@@ -499,7 +499,6 @@ e0911d520034 arm64: dts: renesas: r8a77990-ebisu-4d: Add lossy descompress area
 72addd5bf2ca arm64: dts: renesas: r8a77951: Add cpu capacity-dmips-mhz
 3b8f3cc5f237 arm64: dts: renesas: Add lvds node for du
 b4940e51861a arm64: dts: renesas: r8a779{90-ebisu, 95-draak}: Add no use ddc option for VGA connector
-c91831a4d06a arm64: dts: renesas: salvator-common: Enable PWM2
 b8fac174f786 arm64: dts: renesas: r8a77951: Unsupport DMA transfer for SCIF2
 87b9b3057086 arm64: dts: renesas: r8a779{51, 60, 61}: Add OPPs table-{1-7} for cpu devices
 18c90aaa519d arm64: dts: renesas: r8a779{50, 51, 60, 61, 65, 90}: Remove clocks properties in gic and irqc node
@@ -950,3 +949,4 @@ eff7c317af2e arm64: dts: renesas: Add optee node for Gen3 devices
 7269d13f8f2c arm64: dts: renesas: salvator-common: Add no use ddc option for VGA connector
 e6ef0f7489da arm64: dts: renesas: r8a77951: Add spi aliases
 f11a47f78621 arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Add MSIOF parent clock frequency settings support
+c91831a4d06a arm64: dts: renesas: salvator-common: Enable PWM2
