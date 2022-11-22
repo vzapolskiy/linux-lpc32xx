@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	e7782857c017 'drm: rcar-du: Add enable/disable dot clock to DU in R8A779A0':  (Proposing 'N': The DU has no other outputs than DSI, the DSI encoder will thus always turn its clock on when enabled)
 	fe0832b798a5 'drm: adv7511: Enable HPD interrupts to support hotplug': Marked as 'Abandoned' in mm/done/bsp41x_drm-bridge-adv7511-Add-hotplug-support.yaml.
 	3be1a176425a 'drm/bridge: adv7511: Add frequency and vrefresh limitation option':  (Proposing 'N'  The adv7511 driver isn't where to check board-specific limits. Requesting use case.)
 	- A lot of BSP patches were included in native v6.1

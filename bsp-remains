@@ -284,7 +284,6 @@ b3f9840865d8 media: vsp1: Add VSP device for Gen4
 4c4f100f8bb0 media: vsp1: Add support for new pixel formats in R8A779A0
 8a2a3897a430 media: videodev2.h: Add new pixel format for vsp1 on R8A779A0
 0b29b25ab439 drm: bridge: ti-sn65dsi86: Add setting options for SN65DSI86
-e7782857c017 drm: rcar-du: Add enable/disable dot clock to DU in R8A779A0
 cb3df6f55863 drm: rcar-du: Disable TV synchronized mode in V3U
 de5241d52cc6 drm: rcar-du: Add DIDSRO register setting for V3U
 c7b9de4f7b6a drm: rcar-du: Accessing to reserved registers at V3U is prohibited
@@ -950,3 +949,4 @@ e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency se
 70a541215a75 arm64: dts: renesas: r8a77990-ebisu: Add LVDS panel nodes
 3be1a176425a drm/bridge: adv7511: Add frequency and vrefresh limitation option
 fe0832b798a5 drm: adv7511: Enable HPD interrupts to support hotplug
+e7782857c017 drm: rcar-du: Add enable/disable dot clock to DU in R8A779A0
