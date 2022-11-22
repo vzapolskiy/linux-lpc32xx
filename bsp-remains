@@ -416,7 +416,6 @@ bdafe4d861f6 net: ethernet: ravb: Support AVB1/AVB2
 469ff9d9ba21 ravb: Fix ptp does not work after suspend and resume
 cb386bc52e9b ravb: fix ravb_ptp_interrupt result value overwrite
 872aa8d44400 ravb: Fix interrupt cause bit overwrite in ravb_ptp_interrupt
-c9192124a557 ravb: Add register define for Gen3
 ad58f44acd44 dt-bindings: timer: renesas, tmu: Document r8a779g0 TMU support
 dfd1133c7ab7 dt-bindings: timer: renesas, cmt: Document r8a779g0 CMT support
 cb3f047933e3 pinctrl: renesas: r8a779a0: Remove redundant AVB{0,1} pinmux configuration
@@ -950,3 +949,4 @@ aa5fd2cbca66 spi: sh-msiof: Add sleep before master transfer for test
 d72d7b3f9b4e ravb: Fix ravb_ptp_interrupt clear interrupt all status
 286ee3cf3bad ravb: Add ravb_multi_interrupt to IRQF_SHARED
 51a77f0e7660 ravb: Fix register define for Gen3
+c9192124a557 ravb: Add register define for Gen3
