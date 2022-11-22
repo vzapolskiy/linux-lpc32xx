@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	512ba8ad3bd5 'arm64: dts: renesas: r8a779a0: Add VCPL4 devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	2c0506853cc2 'arm64: dts: renesas: r8a779a0: Add remained IMP devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	c5901c556c2d 'arm64: dts: renesas: r8a779a0: Add FBC devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	e257b37728a2 'arm64: dts: renesas: r8a779a0: Add FBA devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
