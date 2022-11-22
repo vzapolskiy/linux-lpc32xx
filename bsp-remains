@@ -299,7 +299,6 @@ e42ca15fced1 drm: bridge: simple-bridge: Add preferred resolution option
 ff86df8f2aa2 drm: rcar-du: Add support for colorkey alpha blending
 dffa26bbdf08 v4l: vsp1: Add support for colorkey alpha blending
 3860e36d582d v4l: vsp1: Add underrun debug messege option
-4c4575ecad64 v4l: vsp1: Add underrun hung-up workaround
 39719be28af2 v4l: vsp1: Add pixel alpha blending supoprt
 b05fb3de9b65 drm/bridge: adv7511: Add function of suspend and resume
 c3c1e53601fc drm: rcar-du: Fix LVDS stop sequence
@@ -950,3 +949,4 @@ f33dbb8090bd drm: rcar-du: Add HDMI control clock when S2RAM
 84efcbedf26a Revert "drm/rcar-du: Convert to the new generic alpha property"
 217af79ae9a9 drm: rcar-du: Fix DPLL clock divider judgement
 56b96a3db3e8 v4l: vsp1: Add Vmute function support
+4c4575ecad64 v4l: vsp1: Add underrun hung-up workaround
