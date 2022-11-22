@@ -240,7 +240,6 @@ ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
 932aeb37621c arm64: dts: renesas: r8a779a0: Add IMP nodes
 6118a2612b96 arm64: dts: renesas: r8a779a0: Add IMR nodes
 419560a14df4 arm64: dts: r8a779a0: Add SYSC PM Domains
-5d4c3888e0d3 arm64: dts: renesas: r8a779a0: Add PWM nodes
 dd621acea624 arm64: dts: renesas: falcon: Enable PCIe
 34da8764ad92 arm64: dts: renesas: r8a779a0: Add PCIe device node
 ccb1316bf6d0 arm64: dts: renesas: r8a779a0-falcon: Enable TMU
@@ -950,3 +949,4 @@ c2833b47268e arm64: dts: renesas: r8a779a0: Update start address of IMPSPM
 e4dbb4e98674 arm64: dts: renesas: r8a779a0: Separate memory and control regs of IMP SPM devices
 720d92e1190b arm64: dts: renesas: falcon: Enable CMT
 fae4aeaf8b56 arm64: dts: r8a779a0-falcon: Enable fakra connector
+5d4c3888e0d3 arm64: dts: renesas: r8a779a0: Add PWM nodes
