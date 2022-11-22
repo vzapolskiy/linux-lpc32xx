@@ -344,7 +344,6 @@ b1615da5261d i2c: rcar: Add support for r8a779f0 (R-Car S4)
 1e34ab549764 net: ethernet: renesas: Add Renesas Ethernet-TSN driver
 123f3b7ba7ed pwm: tpu: Add compatible string for V4H
 e46f514af535 pwm: pwm-renesas-tpu: Correct the valid period and duty_cycle
-4896707193fc pwm: rcar: Add a judgment of the period out of range
 7323f4671d55 dt-bindings: pwm: tpu: Add support for V4H
 82abbb88867f dt-bindings: pwm: Add support for V4H
 1c8667f8d275 dt-bindings: pwm: Add R-Car V3U device tree bindings
@@ -950,3 +949,4 @@ cccf6860b944 media: i2c: adv748x: Fix get_format function
 85d885d970d1 i2c: rcar: Add support for r8a77961 (R-Car M3-W+)
 c9a37c38aa90 i2c: rcar: Tidy up the register order for hardware specification ver1.00.
 4d55226a52d6 pwm: tpu: Add a compatible string for r8a779a0
+4896707193fc pwm: rcar: Add a judgment of the period out of range
