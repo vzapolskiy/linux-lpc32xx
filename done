@@ -82,6 +82,7 @@ SD/MMC
 	- explanation for others
 
 PCI
+	1195a49b6ca3 'dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U': Marked as 'Abandoned' in io/done/V3U-enable_PCI.yaml.
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 

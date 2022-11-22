@@ -383,7 +383,6 @@ db0c38eeebe9 dt-bindings: serial: sh-sci: Document r8a779f0 bindings
 f8a597ec6b6c sched/core: Add EXPORT_SYMBOL_GPL to sched_setaffinity
 06c478c650ae dt-bindings: PCI: rcar: Add yaml bindings for PCI on R-Car S4
 57ecd61e47c1 dt-bindings: PCI: rcar: Add yaml bindings for PCI Endpoint and R-Car V4H
-1195a49b6ca3 dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U
 a16e01aa6cc9 misc: pci_endpoint_test: Add Device ID for R-Car S4 PCIe controller
 9cd016cfabf2 misc: pci_endpoint_test: Add Device ID for R-Car V4H PCIe controller
 0453069bec94 nvme: Workaround Samsung 970 Pro power state issues
@@ -950,3 +949,4 @@ f60132c67c6e soc: renesas: Identify R-Car M3-W ES1.2
 ccc3f240c183 gpio: gpio-rcar: Add compatible string for r8a77961
 dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
 4ad9b3444ded serial: sh-sci: Use pm_runtime_get/put when suspend
+1195a49b6ca3 dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U
