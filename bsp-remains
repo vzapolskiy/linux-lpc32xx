@@ -295,7 +295,6 @@ df0fc9790b0b drm: bridge: hw-hdmi: Control clock of bridge during S2RAM
 24940f87e199 drm: rcar-du: Add register access check
 352663e60e53 drm: rcar-du: Fix DPLL workaround for H3 ES1.x
 b4427db080d7 drm: bridge: simple-bridge: Add dot clock valid check
-2f9195e22ba2 drm: rcar-du: Skip EPROBE_DEFER in case of disabling LVDS and HDMI
 e42ca15fced1 drm: bridge: simple-bridge: Add preferred resolution option
 ff86df8f2aa2 drm: rcar-du: Add support for colorkey alpha blending
 dffa26bbdf08 v4l: vsp1: Add support for colorkey alpha blending
@@ -950,3 +949,4 @@ c63b0054608b drm: rcar-du: Add dev_type for dw-hdmi driver
 75773178778c drm: bridge/dw-hdmi: Fix reserved bits and unused registers for R-Car
 f33dbb8090bd drm: rcar-du: Add HDMI control clock when S2RAM
 3e69390afef7 drm: rcar-du: Fix possible crtcs for plane when using VSPDL
+2f9195e22ba2 drm: rcar-du: Skip EPROBE_DEFER in case of disabling LVDS and HDMI
