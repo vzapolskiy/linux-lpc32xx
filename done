@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	c2833b47268e 'arm64: dts: renesas: r8a779a0: Update start address of IMPSPM':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	8fe9a8829854 'arm64: dts: renesas: r8a779a0: Add H264 encoder devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	bd790e0bfe8e 'arm64: dts: renesas: falcon: Add HSCIF0 support':  (we only keep SCIF enabled in upstream)
 	6df2f31dfd82 'arm64: dts: renesas: falcon: Add pfc node for PCIe': Marked as 'Abandoned' in io/done/V3U-enable_PCI.yaml.

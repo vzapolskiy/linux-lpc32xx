@@ -236,7 +236,6 @@ e5e89c4837f7 arm64: dts: renesas: v3x: update videoboxes for Yocto4.1.0
 d80707e0e447 arm64: dts: renesas: ulcb-kf: update for kernel v5.10
 aa2552bb7c2e arm64: dts: renesas: r8a779a0-falcon: Reserve u-boot secure area
 84a6123fe4a3 arm64: dts: renesas: ebisu: Add endpoint for dual-link in Ebisu board
-c2833b47268e arm64: dts: renesas: r8a779a0: Update start address of IMPSPM
 3dad8bc4bc0f arm64: dts: renesas: r8a779a0: Fix clock and software reset of ISP nodes
 25665edddaa5 arm64: dts: renesas: Add resets property to IMP devices
 e4dbb4e98674 arm64: dts: renesas: r8a779a0: Separate memory and control regs of IMP SPM devices
@@ -950,3 +949,4 @@ c5901c556c2d arm64: dts: renesas: r8a779a0: Add FBC devices
 6df2f31dfd82 arm64: dts: renesas: falcon: Add pfc node for PCIe
 bd790e0bfe8e arm64: dts: renesas: falcon: Add HSCIF0 support
 8fe9a8829854 arm64: dts: renesas: r8a779a0: Add H264 encoder devices
+c2833b47268e arm64: dts: renesas: r8a779a0: Update start address of IMPSPM
