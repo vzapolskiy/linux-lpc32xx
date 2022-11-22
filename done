@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	605f94a22dc9 'arm64: dts: renesas: r8a779a0: Add WWDT devices':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	f7c6a43a94f6 'arm64: dts: renesas: Comment out status ok in rpc node':  (not needed. we upport the meanwhile available fix instead)
 	2479c7da8049 'arm64: dts: renesas: Update IMP LDMA device':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	81a0161ddc6a 'arm64: dts: renesas: r8a77970 and r8a77980: Add CPU operation points': .
