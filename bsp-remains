@@ -226,7 +226,6 @@ ded7fcd78c96 arm64: dts: renesas: r8a77995-draak: Remove endpoint of LVDS1
 cf51e0adbe4a arm64: dts: renesas: r8a77980-es2: Add videobox boards support
 e5e89c4837f7 arm64: dts: renesas: v3x: update videoboxes for Yocto4.1.0
 205cd02cfe01 arm64: dts: renesas: r8a77980: Add ES2 boards
-a432a1010378 arm64: dts: r8a77970, r8a77980: Enable TMU and CMT
 9b52276be392 arm64: dts: renesas: r8a77970: Add ES1 and Eagle Function boards
 8a3097afe858 arm64: dts: renesas: Add ulcb-kf-imx219 overlay
 499956c799e7 arm64: dts: renesas: ulcb-kf: Add ov5647 support
@@ -950,3 +949,4 @@ d0ae50ec421f arm64: dts: r8a779a0: Delete ipmmu in mmc node
 ceaebe58dff5 arm64: dts: r8a77980: Update name and reg size of IMP nodes
 403876f7ff9a arm64: dts: renesas: Add missed ipmmu-id tags
 6ddabb5d936d arm64: dts: renesas: extend 'ipmmu-id' with micro-TLB index
+a432a1010378 arm64: dts: r8a77970, r8a77980: Enable TMU and CMT

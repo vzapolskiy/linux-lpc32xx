@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	a432a1010378 'arm64: dts: r8a77970, r8a77980: Enable TMU and CMT':  (there were issues enabling multiple timers in board files by default)
 	6ddabb5d936d 'arm64: dts: renesas: extend 'ipmmu-id' with micro-TLB index':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	403876f7ff9a 'arm64: dts: renesas: Add missed ipmmu-id tags':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	ceaebe58dff5 'arm64: dts: r8a77980: Update name and reg size of IMP nodes':  (Proposing 'N': UIO and OSAL are not intended for upstream))
