@@ -105,6 +105,7 @@ Serial
 	- explanation
 
 Thermal
+	4b6f17f1dd49 'thermal: rcar_gen3_thermal: PIO-INT can be selected for each TSC separately':  (Proposing 'N'  Should be squashed with 84ae8e4f3f45ebe52499ac2ade32744adc61f355 which is proposed 'N', too.)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 

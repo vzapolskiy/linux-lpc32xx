@@ -366,7 +366,6 @@ f180287ca73b ravb: Support ravb driver for R-Car Gen4
 fad51de34b7f dt-bindings: spi: renesas,sh-msiof: Add support for S4
 61ce14e6e0f0 dt-binding: spi: renesas,sh-msiof: Add support for V4H
 6e6cf158bb82 spi: spi-sh-msiof: Add generic compatible string for R-Car Gen4
-4b6f17f1dd49 thermal: rcar_gen3_thermal: PIO-INT can be selected for each TSC separately
 210d647a385f thermal: rcar_gen3_thermal: Enable selection between polling/interrupt mode
 b904fa8a336b can: rcar_canfd: Correct the value of tseg1
 e3e5bccc9244 can: rcar_canfd: rcar_canfd_configure_afl_rules(): Fix Rx FIFO entry setting
@@ -950,3 +949,4 @@ c9a37c38aa90 i2c: rcar: Tidy up the register order for hardware specification ve
 1c8667f8d275 dt-bindings: pwm: Add R-Car V3U device tree bindings
 f60132c67c6e soc: renesas: Identify R-Car M3-W ES1.2
 817c301889ac ravb: Add a compatible string for r8a77960/r8a77961
+4b6f17f1dd49 thermal: rcar_gen3_thermal: PIO-INT can be selected for each TSC separately
