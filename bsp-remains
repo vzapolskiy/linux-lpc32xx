@@ -328,7 +328,6 @@ a87e91416bb0 media: rcar-vin: Fix checking format condition
 d615491f9e09 media: rcar-vin: Fix the cropping function
 6443ce0811cb media: rcar-vin: remove reset in stop stream
 5f4680c68d32 media: rcar-vin: Add NV12 pixel format checking
-9dd88d126877 media: i2c: adv7604: Add suspend and resume support
 a30ce8ca61d4 media: i2c: adv7604: Fix set_fmt function
 da5448ccfeac media: i2c: adv7604: Add default EDID information
 c58d45a70ae9 media: i2c: adv7604: Enable decoder control register
@@ -950,3 +949,4 @@ cd96a090fa07 drm: rcar-du: Add overlay layer size check
 53d4b314148b media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup
 9ac2538217cc media: rcar-vin: Disable media-ctl on R8A77995
 dde33d1d22bd media: i2c: adv7180: Add std update when getting format
+9dd88d126877 media: i2c: adv7604: Add suspend and resume support
