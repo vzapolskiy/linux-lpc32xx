@@ -378,7 +378,6 @@ d7c67c1567d0 dt-bindings: gpio: rcar: Document r8a779f0 support
 5e7eaa64ca2b dt-bindings: gpio: rcar: Add r8a779g0 support
 2dc3fee75d7f gpio: rcar: Modify compatible string and add support for r8a779f0
 284c6cb7ca6f gpio: gpio-rcar: Add compatible string for r8a779g0
-ccc3f240c183 gpio: gpio-rcar: Add compatible string for r8a77961
 db0c38eeebe9 dt-bindings: serial: sh-sci: Document r8a779f0 bindings
 42e7333e6f58 dt-bindings: serial: sh-sci: Document r8a779g0 bindings
 f8a597ec6b6c sched/core: Add EXPORT_SYMBOL_GPL to sched_setaffinity
@@ -950,3 +949,4 @@ f60132c67c6e soc: renesas: Identify R-Car M3-W ES1.2
 817c301889ac ravb: Add a compatible string for r8a77960/r8a77961
 4b6f17f1dd49 thermal: rcar_gen3_thermal: PIO-INT can be selected for each TSC separately
 210d647a385f thermal: rcar_gen3_thermal: Enable selection between polling/interrupt mode
+ccc3f240c183 gpio: gpio-rcar: Add compatible string for r8a77961
