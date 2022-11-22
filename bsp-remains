@@ -223,7 +223,6 @@ b0aa94d65efb arm64: dts: renesas: Fix compatible name for MFIS node
 b8391f96ea13 arm64: dts: renesas: r8a77980-v3hsk: Disable MMC
 ded7fcd78c96 arm64: dts: renesas: r8a77995-draak: Remove endpoint of LVDS1
 3799f1e161c6 arm64: dts: Add MFISLock driver support
-d0ae50ec421f arm64: dts: r8a779a0: Delete ipmmu in mmc node
 ceaebe58dff5 arm64: dts: r8a77980: Update name and reg size of IMP nodes
 403876f7ff9a arm64: dts: renesas: Add missed ipmmu-id tags
 6ddabb5d936d arm64: dts: renesas: extend 'ipmmu-id' with micro-TLB index
@@ -950,3 +949,4 @@ d0389b66d30a arm64: dts: renesas: r8a77995: Enable IPMMU-DS1 and IPMMU-MM
 0ed94ce71f04 arm64: dts: renesas: r8a77995: Change default of all IPMMU devices to disable
 36bed5ebf563 arm64: dts: renesas: r8a779{50,51,60,65,m1}: Move nodes of du and lvds
 948df237125b arm64: dts: Makefile: Comment out compiling of dtbo
+d0ae50ec421f arm64: dts: r8a779a0: Delete ipmmu in mmc node
