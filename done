@@ -108,6 +108,7 @@ MFD
 	- All BSP local patches are included in native v6.1
 
 Media
+	56b96a3db3e8 'v4l: vsp1: Add Vmute function support': Marked as 'Abandoned' in mm/done/bsp41x_vsp-Add-vmute-function.yaml.
 	217af79ae9a9 'drm: rcar-du: Fix DPLL clock divider judgement': Marked as 'Abandoned' in mm/done/bsp41x_rcar-du-Fix-DPLL-clock-divider.yaml.
 	84efcbedf26a 'Revert "drm/rcar-du: Convert to the new generic alpha property"': Was in bsp-41x-non-target.yaml without reason.
 	2f9195e22ba2 'drm: rcar-du: Skip EPROBE_DEFER in case of disabling LVDS and HDMI': Marked as 'Abandoned' in mm/done/bsp41x_rcar-du-Don-t-defer-probe-with-disabled-encoders.yaml.
