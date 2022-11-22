@@ -324,7 +324,6 @@ e10a3eba74e3 media: rcar-vin: Add RAW10 format support
 93a9b850bf1f media: rcar-vin: Remove checking format condition
 a87e91416bb0 media: rcar-vin: Fix checking format condition
 7e0ff80abaf9 media: rcar-vin: Fix procedure of clipping and scaling
-9ac2538217cc media: rcar-vin: Disable media-ctl on R8A77995
 8d3a28734eb3 media: rcar-vin: Add scaling mode to R8A77990
 d615491f9e09 media: rcar-vin: Fix the cropping function
 6443ce0811cb media: rcar-vin: remove reset in stop stream
@@ -950,3 +949,4 @@ b05fb3de9b65 drm/bridge: adv7511: Add function of suspend and resume
 cd96a090fa07 drm: rcar-du: Add overlay layer size check
 75008adaa5f2 drm: rcar-du: Fix PHY configure registers
 53d4b314148b media: rcar-vin: rcar-csi2: fix r8a77980 SoC setup
+9ac2538217cc media: rcar-vin: Disable media-ctl on R8A77995
