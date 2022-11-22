@@ -89,6 +89,7 @@ CAN
 Ethernet
 
 I2C
+	85d885d970d1 'i2c: rcar: Add support for r8a77961 (R-Car M3-W+)':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
 SPI
 

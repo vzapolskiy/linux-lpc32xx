@@ -339,7 +339,6 @@ df55f34d3f0c dt-bindings: i2c: rcar: Document r8a779g0 support
 b1615da5261d i2c: rcar: Add support for r8a779f0 (R-Car S4)
 3607e145db47 i2c: rcar: Add fast mode plus support
 8e15be80c04c i2c: rcar: Add support for r8a779g0 (R-Car V4H)
-85d885d970d1 i2c: rcar: Add support for r8a77961 (R-Car M3-W+)
 c9a37c38aa90 i2c: rcar: Tidy up the register order for hardware specification ver1.00.
 2a1f07d0e722 net: phy: mv88q2110: Initial PHY Marvel 88Q2110 support
 78e51462682c dt-bindings: net: renesas,ethertsn: Add binding document for new Ethernet-TSN driver
@@ -950,3 +949,4 @@ ac793f9c1bfa media: i2c: adv748x: Set default EDID value
 cccf6860b944 media: i2c: adv748x: Fix get_format function
 9a473723caaf rcar-vin: rcar-csi2: Don't bail out from probe on no ep
 00b81e15e5f7 media: rcar-vin: Add memory type of VB_USERPTR support
+85d885d970d1 i2c: rcar: Add support for r8a77961 (R-Car M3-W+)
