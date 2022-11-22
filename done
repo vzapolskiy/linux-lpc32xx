@@ -19,6 +19,7 @@ IOMMU
 	- explanation for others
 
 SD/MMC
+	2ec314c9451c 'mmc: renesas_sdhi: fix selection of manual correction':  (Why exactly can't we use the version register?)
 	- A lot of BSP patches were included in native v6.1
 	- explanation for others
 
