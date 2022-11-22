@@ -104,6 +104,7 @@ I2C
 	85d885d970d1 'i2c: rcar: Add support for r8a77961 (R-Car M3-W+)':  (Proposing 'N' Driver matches against family-specific compatible value, which has always been present in upstream DTS)
 
 SPI
+	eaeb661228d2 'spi: sh-msiof: Add MSIOF parent clock':  (Proposing 'N'  Should use "assigned-clocks" and "assigned-clock-rates" in board DTS file that actually uses MSIOF)
 
 PWM
 	1c8667f8d275 'dt-bindings: pwm: Add R-Car V3U device tree bindings': Marked as 'Abandoned' in io/done/V3U-enable_PWM.yaml.
