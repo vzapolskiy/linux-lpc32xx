@@ -411,7 +411,6 @@ ca161241c4c3 iommu/ipmmu-vmsa: Adding devices allowlist for IPMMU on R-Car Gen3
 fdfe96d831f0 dmaengine: rcar-dmac: Add bus rate control support for R-Car V3U/V4H
 30948f03327b dmaengine: rcar-dmac: Add support for R-Car V4H
 3baf2c4e8881 dmaengine: rcar-dmac: Add fixed address mode support
-6baf8b33ed9d dmaengine: rcar-dmac: Fix array-bounds warning refer chcr_ts[]
 eb9d8f7f183f dt-bindings: net: renesas,etheravb: Add support for r8a779g0 SoC
 bdafe4d861f6 net: ethernet: ravb: Support AVB1/AVB2
 469ff9d9ba21 ravb: Fix ptp does not work after suspend and resume
@@ -950,3 +949,4 @@ eaeb661228d2 spi: sh-msiof: Add MSIOF parent clock
 0fa91d04eaa7 spi: sh-msiof: Add SPI master transmission workaround
 aa5fd2cbca66 spi: sh-msiof: Add sleep before master transfer for test
 4d89de9aef8f spi: sh-msiof: Add support for r8a7795
+6baf8b33ed9d dmaengine: rcar-dmac: Fix array-bounds warning refer chcr_ts[]

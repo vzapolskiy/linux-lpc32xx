@@ -68,6 +68,7 @@ PinControl/GPIO
 	- explanation for others
 
 DMA-Engine
+	6baf8b33ed9d 'dmaengine: rcar-dmac: Fix array-bounds warning refer chcr_ts[]':  (Proposing 'N': Rejected by driver author")
 	- A lot of BSP patches were included in native v6.1
 	- explanation
 
