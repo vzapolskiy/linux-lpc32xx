@@ -427,7 +427,6 @@ bf17a2d986b7 pinctrl: renesas: r8a779f0: Fix typo mistake of tsn1 pin
 17e03cf7176a pinctrl: renesas: Initial R8A779F0 (S4) PFC support
 dfb55df8b6b7 dt-bindings: pinctrl: renesas,pfc: Document r8a779f0 PFC support
 102fb238c55f pinctrl: renesas: Initial R8A779G0 (V4H) PFC support
-82fbba6554b7 pinctrl: renesas:r8a779{50, 51, 6, 65}: add mlb pinmux
 6c161137ceeb pinctrl: renesas: r8a77950: Add VIN pins, groups and functions
 13b497a2f518 clk: renesas: r8a779g0: Update parent clk for (H)SCIF
 1a136874a612 clk: renesas: r8a779g0: Fix the (H)SCIF parents clk
@@ -950,3 +949,4 @@ d72d7b3f9b4e ravb: Fix ravb_ptp_interrupt clear interrupt all status
 286ee3cf3bad ravb: Add ravb_multi_interrupt to IRQF_SHARED
 51a77f0e7660 ravb: Fix register define for Gen3
 c9192124a557 ravb: Add register define for Gen3
+82fbba6554b7 pinctrl: renesas:r8a779{50, 51, 6, 65}: add mlb pinmux
