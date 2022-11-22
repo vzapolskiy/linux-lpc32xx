@@ -1,4 +1,5 @@
 ARM/SoC/DT
+	2479c7da8049 'arm64: dts: renesas: Update IMP LDMA device':  (Proposing 'N': UIO and OSAL are not intended for upstream))
 	81a0161ddc6a 'arm64: dts: renesas: r8a77970 and r8a77980: Add CPU operation points': .
 	99247afdb8a6 'arm64: dts: renesas: v3x: Set thc63lvd1024 dual link mode': Marked as 'Abandoned' in mm/done/bsp41x_r8a779[78]0-Enable-dual-link-LVDS.yaml.
 	54eaa9cd5aae 'arm64: boot: dts: rcar-gen3: Fix MLP IRQ order':  (upstream never had the wrong order)
