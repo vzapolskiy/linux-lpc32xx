@@ -181,6 +181,19 @@ MMP local
 		8fd80032f621 arm64: dts: renesas: Add MMNGR driver support for Gen3 devices
 		e44bdceb4adc iommu/ipmmu-vmsa: Add override support for the actual number of MMU contexts
 
+PCI
+	Matches already against family-specific compatible
+		331fb5074e3b PCI: rcar: Add a compatible string for r8a77961
+
+	Workaround only need on Gen2 and earlier. Already rejected upstream. Rework is a big task!
+		10038ddd935a PCI: pcie-rcar: Add bus notifier so we can limit the dma
+
+	PCIe is considered broken for V3U
+		1195a49b6ca3 dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U
+		34da8764ad92 arm64: dts: renesas: r8a779a0: Add PCIe device node
+		dd621acea624 arm64: dts: renesas: falcon: Enable PCIe
+		6df2f31dfd82 arm64: dts: renesas: falcon: Add pfc node for PCIe
+
 POST
 	POST is not intended for upstream
 

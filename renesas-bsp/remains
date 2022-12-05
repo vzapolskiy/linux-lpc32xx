@@ -199,7 +199,6 @@ ecf7e4693ae4 arm64: dts: r8a779a0-falcon: Add TPU support
 2be47417cee9 arm64: dts: renesas: r8a77990-es10-ebisu: add full-pwr-cycle-in-suspend into eMMC nodes
 aa2552bb7c2e arm64: dts: renesas: r8a779a0-falcon: Reserve u-boot secure area
 23c7e7f33c3d arm64: dts: renesas: r8a77990: Add VGA connector to DU
-6df2f31dfd82 arm64: dts: renesas: falcon: Add pfc node for PCIe
 84a6123fe4a3 arm64: dts: renesas: ebisu: Add endpoint for dual-link in Ebisu board
 bd790e0bfe8e arm64: dts: renesas: falcon: Add HSCIF0 support
 ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
@@ -207,8 +206,6 @@ ae2a16c066dc arm64: dts: r8a779a0-falcon: Add reserved memory for CMA
 fae4aeaf8b56 arm64: dts: r8a779a0-falcon: Enable fakra connector
 419560a14df4 arm64: dts: r8a779a0: Add SYSC PM Domains
 5d4c3888e0d3 arm64: dts: renesas: r8a779a0: Add PWM nodes
-dd621acea624 arm64: dts: renesas: falcon: Enable PCIe
-34da8764ad92 arm64: dts: renesas: r8a779a0: Add PCIe device node
 ccb1316bf6d0 arm64: dts: renesas: r8a779a0-falcon: Enable TMU
 667534413db9 arm64: dts: renesas: r8a779a0-falcon: Add missing Ethernet-AVB in Falcon board
 e10bdcf232ff arm64: dts: renesas: r8a7799a0: Add MSIOF parent clock frequency settings support
@@ -358,7 +355,6 @@ dac54422c0d0 serial: sh-sci: Use pm_runtime_get/put when resume
 4ad9b3444ded serial: sh-sci: Use pm_runtime_get/put when suspend
 06c478c650ae dt-bindings: PCI: rcar: Add yaml bindings for PCI on R-Car S4
 57ecd61e47c1 dt-bindings: PCI: rcar: Add yaml bindings for PCI Endpoint and R-Car V4H
-1195a49b6ca3 dt-bindings: PCI: rcar: Add yaml bindings for R-Car V3U
 a16e01aa6cc9 misc: pci_endpoint_test: Add Device ID for R-Car S4 PCIe controller
 9cd016cfabf2 misc: pci_endpoint_test: Add Device ID for R-Car V4H PCIe controller
 0453069bec94 nvme: Workaround Samsung 970 Pro power state issues
@@ -369,8 +365,6 @@ c5189c803d5b pci: dwc: pcie-renesas-ep: Support PCIe endpoint for R-Car V4H
 f0ac8f59aecd pci: dwc: renesas: Add R-Car V4H PCIe support
 de5c42ac25fe pci: renesas: Add Renesas R-Car PCIev4 endpoint controller driver
 a119b30ee6f6 PCI: dwc: renesas: Add Renesas R-Car PCIe v4.0 host controller driver
-10038ddd935a PCI: pcie-rcar: Add bus notifier so we can limit the dma
-331fb5074e3b PCI: rcar: Add a compatible string for r8a77961
 56f944e99309 PCI: rcar: Add regulators support
 8f12704115d0 dt-bindings: iommu: renesas,ipmmu-vmsa: add r8a779g0 support
 fcc3027a09a8 iommu/ipmmu-vmsa: Add R-Car V3H/V3M/D3 to IPMMU denylist
