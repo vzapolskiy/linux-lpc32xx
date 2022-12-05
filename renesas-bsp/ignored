@@ -68,6 +68,7 @@ EMS
 		c9776655c1ea arm64: defconfig: Enable loadable EMS/IPA module.
 		713a071a3248 arm64: defconfig: Enable EMS/IPA support
 		78a2fa569e6c dt-bindings: thermal: Add yaml bindings for EMS in thermal zones
+		1ab838e03cc5 arm64: dts: renesas: r8a779{51, 60, 61, 65, 90}: Add the emergency node in thermal-zones
 
 FCP
 	FCP is not intended for upstream
