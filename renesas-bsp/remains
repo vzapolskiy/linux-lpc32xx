@@ -387,7 +387,6 @@ ca161241c4c3 iommu/ipmmu-vmsa: Adding devices allowlist for IPMMU on R-Car Gen3
 4b900652aec4 iommu/ipmmu-vmsa: Adding IPMMU support for R-Car M3 ver-1.x
 6c286c0f0b71 iommu/ipmmu-vmsa: Invalidate TLB when IPMMU translation error occurred
 8089aa35bf04 iommu/ipmmu-vmsa: Clean up unncessary micro-TLB invalidation
-e44bdceb4adc iommu/ipmmu-vmsa: Add override support for the actual number of MMU contexts
 eaeb661228d2 spi: sh-msiof: Add MSIOF parent clock
 04be76d59158 spi: sh-msiof: Add support for r8a77961
 4a04f1197c2b spi: sh-msiof: Set 2 clock delay for R-Car H3 Ver.3.0 only

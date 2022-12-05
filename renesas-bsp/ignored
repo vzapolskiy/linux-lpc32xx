@@ -179,6 +179,7 @@ MMP local
 		def8ddb3ce26 arm64: dts: renesas: r8a77990-ebisu-4d: Add lossy phandle to MMNGR driver node
 		108fcd53b512 arm64: dts: renesas: Add MMNGRBUF driver node for Gen3 devices
 		8fd80032f621 arm64: dts: renesas: Add MMNGR driver support for Gen3 devices
+		e44bdceb4adc iommu/ipmmu-vmsa: Add override support for the actual number of MMU contexts
 
 POST
 	POST is not intended for upstream
