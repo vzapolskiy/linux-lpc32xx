@@ -117,7 +117,6 @@ struct cci_data {
 	unsigned int num_masters;
 	struct i2c_adapter_quirks quirks;
 	u16 queue_size[NUM_QUEUES];
-	struct hw_params params[3];
 };
 
 struct cci {
@@ -128,7 +127,10 @@ struct cci {
 	struct clk_bulk_data *clocks;
 	int nclocks;
 	struct cci_master master[NUM_MASTERS];
+	unsigned long rate;
 };
+
+static const struct hw_params cci_hw_params[2][3];
 
 static irqreturn_t cci_isr(int irq, void *dev)
 {
@@ -249,7 +251,7 @@ static void cci_init(struct cci *cci)
 		if (!cci->master[i].cci)
 			continue;
 
-		hw = &cci->data->params[mode];
+		hw = &cci_hw_params[(cci->rate == 37500000)][mode];
 
 		val = hw->thigh << 16 | hw->tlow;
 		writel(val, cci->base + CCI_I2C_Mm_SCL_CTL(i));
@@ -461,6 +463,29 @@ static const struct i2c_algorithm cci_algo = {
 	.functionality = cci_func,
 };
 
+static int cci_get_clock_rate(struct cci *cci)
+{
+	unsigned int i;
+
+	for (i = 0; i < cci->nclocks; i++) {
+		if (strcmp(cci->clocks[i].id, "cci"))
+			continue;
+
+		cci->rate = clk_get_rate(cci->clocks[i].clk);
+		if (cci->rate != 19200000 && cci->rate != 37500000)
+			return -EOPNOTSUPP;
+
+		break;
+	}
+
+	for (i = 0; i < cci->data->num_masters; i++)
+		if (cci->rate == 19200000 &&
+		    cci->master[i].mode == I2C_MODE_FAST_PLUS)
+			return -EOPNOTSUPP;
+
+	return 0;
+}
+
 static int cci_enable_clocks(struct cci *cci)
 {
 	return clk_bulk_prepare_enable(cci->nclocks, cci->clocks);
@@ -590,6 +615,10 @@ static int cci_probe(struct platform_device *pdev)
 	if (ret < 0)
 		return ret;
 
+	ret = cci_get_clock_rate(cci);
+	if (ret < 0)
+		goto disable_clocks;
+
 	/* Interrupt */
 
 	ret = platform_get_irq(pdev, 0);
@@ -661,36 +690,87 @@ static void cci_remove(struct platform_device *pdev)
 	pm_runtime_set_suspended(&pdev->dev);
 }
 
+/*
+  The first index is a supported CCI clock frequency of 19.2MHz or 37.5MHz,
+  the second index is a supported I2C bus speed mode, 100KHz, 400KHz or 1MHz.
+*/
+static const struct hw_params cci_hw_params[2][3] =
+{
+	{
+		{
+			.thigh = 78,
+			.tlow = 114,
+			.tsu_sto = 28,
+			.tsu_sta = 28,
+			.thd_dat = 10,
+			.thd_sta = 77,
+			.tbuf = 118,
+			.scl_stretch_en = 0,
+			.trdhld = 6,
+			.tsp = 1
+		},
+		{
+			.thigh = 20,
+			.tlow = 28,
+			.tsu_sto = 21,
+			.tsu_sta = 21,
+			.thd_dat = 13,
+			.thd_sta = 18,
+			.tbuf = 32,
+			.scl_stretch_en = 0,
+			.trdhld = 6,
+			.tsp = 3
+		},
+		{
+			/* 19.2MHz / Fast mode plus is not supported */
+		},
+	},
+	{
+		{
+			.thigh = 201,
+			.tlow = 174,
+			.tsu_sto = 204,
+			.tsu_sta = 231,
+			.thd_dat = 22,
+			.thd_sta = 162,
+			.tbuf = 227,
+			.scl_stretch_en = 0,
+			.trdhld = 6,
+			.tsp = 3
+		},
+		{
+			.thigh = 38,
+			.tlow = 56,
+			.tsu_sto = 40,
+			.tsu_sta = 40,
+			.thd_dat = 22,
+			.thd_sta = 35,
+			.tbuf = 62,
+			.scl_stretch_en = 0,
+			.trdhld = 6,
+			.tsp = 3
+		},
+		{
+			.thigh = 16,
+			.tlow = 22,
+			.tsu_sto = 17,
+			.tsu_sta = 18,
+			.thd_dat = 16,
+			.thd_sta = 15,
+			.tbuf = 24,
+			.scl_stretch_en = 0,
+			.trdhld = 3,
+			.tsp = 3
+		},
+	},
+};
+
 static const struct cci_data cci_v1_data = {
 	.num_masters = 1,
 	.queue_size = { 64, 16 },
 	.quirks = {
 		.max_write_len = 10,
 		.max_read_len = 12,
-	},
-	.params[I2C_MODE_STANDARD] = {
-		.thigh = 78,
-		.tlow = 114,
-		.tsu_sto = 28,
-		.tsu_sta = 28,
-		.thd_dat = 10,
-		.thd_sta = 77,
-		.tbuf = 118,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 1
-	},
-	.params[I2C_MODE_FAST] = {
-		.thigh = 20,
-		.tlow = 28,
-		.tsu_sto = 21,
-		.tsu_sta = 21,
-		.thd_dat = 13,
-		.thd_sta = 18,
-		.tbuf = 32,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 3
 	},
 };
 
@@ -701,30 +781,6 @@ static const struct cci_data cci_v1_5_data = {
 		.max_write_len = 10,
 		.max_read_len = 12,
 	},
-	.params[I2C_MODE_STANDARD] = {
-		.thigh = 78,
-		.tlow = 114,
-		.tsu_sto = 28,
-		.tsu_sta = 28,
-		.thd_dat = 10,
-		.thd_sta = 77,
-		.tbuf = 118,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 1
-	},
-	.params[I2C_MODE_FAST] = {
-		.thigh = 20,
-		.tlow = 28,
-		.tsu_sto = 21,
-		.tsu_sta = 21,
-		.thd_dat = 13,
-		.thd_sta = 18,
-		.tbuf = 32,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 3
-	},
 };
 
 static const struct cci_data cci_v2_data = {
@@ -733,42 +789,6 @@ static const struct cci_data cci_v2_data = {
 	.quirks = {
 		.max_write_len = 11,
 		.max_read_len = 12,
-	},
-	.params[I2C_MODE_STANDARD] = {
-		.thigh = 201,
-		.tlow = 174,
-		.tsu_sto = 204,
-		.tsu_sta = 231,
-		.thd_dat = 22,
-		.thd_sta = 162,
-		.tbuf = 227,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 3
-	},
-	.params[I2C_MODE_FAST] = {
-		.thigh = 38,
-		.tlow = 56,
-		.tsu_sto = 40,
-		.tsu_sta = 40,
-		.thd_dat = 22,
-		.thd_sta = 35,
-		.tbuf = 62,
-		.scl_stretch_en = 0,
-		.trdhld = 6,
-		.tsp = 3
-	},
-	.params[I2C_MODE_FAST_PLUS] = {
-		.thigh = 16,
-		.tlow = 22,
-		.tsu_sto = 17,
-		.tsu_sta = 18,
-		.thd_dat = 16,
-		.thd_sta = 15,
-		.tbuf = 24,
-		.scl_stretch_en = 0,
-		.trdhld = 3,
-		.tsp = 3
 	},
 };
 
